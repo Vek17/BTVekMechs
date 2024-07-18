@@ -1,0 +1,112 @@
+{
+	"Custom": {
+		"WorkOrderCosts": {
+			"Repair": {
+				"TechCost": "60",
+				"CBillCost": "784000"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "w/a/g/gaussrifle"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 75,
+			"StabilityDamage": 20
+		},
+		"BonusDescriptions": [
+				"NoFireInMelee",
+				"WpnRecoil: 1",
+				"WpnAccuracy: +1",
+				"DmgFallOff: 75%",
+				"DmgFallOffStart: 330",
+				"DmgFallOffEnd: 810",
+				"WeaponBoom: 75",
+				"ExplodeStab: 25",
+				"WeaponAttachmentCompatible: Gauss FCS"
+		],
+		"Flags": [
+			"default",
+			"not_broken",
+			"no_salvage",
+			"autorepair"
+		]
+	},
+	"Category": "Ballistic",
+	"Type": "Gauss",
+	"WeaponSubType": "Gauss",
+	"MinRange": 30,
+	"MaxRange": 810,
+	"RangeSplit": [
+		210,
+		450,
+		600
+	],
+	"AmmoCategory": "GAUSS",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 14,
+	"Damage": 70,
+	"DistantVariance": 0.75,
+	"DamageFalloffStartDistance": 330,
+	"DamageFalloffEndDistance": 810,
+	"DistantVarianceReversed": false,
+	"RangedDmgFalloffType": "Linear",
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,				
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 1,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 4,
+	"Instability": 20,
+	"WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+	"Description": {
+		"Cost": 1568000,
+		"Rarity": 10,
+		"Purchasable": false,
+		"Manufacturer": "CLAN",
+		"Model": "Magnetic Cannon",
+		"UIName": "Gauss Rifle (INT)",
+		"Id": "Weapon_Gauss_Gauss_BELIAL",
+		"Name": "Gauss Rifle (INT)",
+		"Details": "A unique set of modifications has reduced the weight of this Gauss Rifle enough allowing for complete integration into the Belial. The lighter coils result in significantly greater heat buildup and a loss of velocity at longer ranges, but they retain devestating power up close. <b><color=#099ff2>VOLATILE!</color></b>",
+		"Icon": "FerroMag"
+	},
+	"Lootable": {
+		"ItemID": "Weapon_Gauss_Gauss_CLAN"
+    },
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Gauss",
+	"BattleValue": 0,
+	"InventorySize": 6,
+	"Tonnage": 9,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"ImprovedBallistic": true,
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"OmniRestriction.{location}",
+			"component_type_stock",
+			"component_type_lostech",
+			"range_extreme",
+			"GaussFCSSupported-Standard",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

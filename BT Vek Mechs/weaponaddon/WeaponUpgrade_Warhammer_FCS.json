@@ -1,0 +1,16 @@
+{
+	"Id": "WeaponUpgrade_Warhammer_FCS",
+	"addonType": "warhammerfcs",
+	"targetComponentTags": [
+		"WarhammerFCSSupported"
+	],
+	"modes": [
+		{
+			"Id": "BASE",
+			"UIName": "FCS",
+			"Name": "FCS",
+			"EvasivePipsIgnored": 1,
+			"AccuracyModifier": -2.0
+		}
+	]
+}

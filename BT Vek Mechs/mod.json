@@ -1,0 +1,57 @@
+{
+	"Name": "BT Vek Mechs",
+	"DLL": "BTVekMechs.dll",
+	"DLLEntryPoint": "VekMechs.Main.Start",
+	"Enabled": true,
+	"Hidden": false,
+	"Version": "0.1",
+	"Author": "Vek17",
+	"Description": "Contains custom mechs, intended for BTA.",
+	"DependsOn": [
+		"BT Advanced Unique Mechs"
+	],
+	"DataAddendumEntries": [
+		{
+			"name": "BattleTech.AmmoCategoryEnumeration",
+			"path": "ammunition\\AmmoCategory.json"
+		}
+	],
+	"Manifest": [
+		{
+			"Type": "ChassisDef",
+			"Path": "chassis",
+			"AddToDB": true
+		},
+		{
+			"Type": "MechDef",
+			"Path": "mech",
+			"AddToDB": true
+		},
+		{
+			"Type": "AmmunitionDef",
+			"Path": "ammunition\\ammunition",
+			"AddToDB": true
+
+		},
+		{
+			"Type": "AmmunitionBoxDef",
+			"Path": "ammunition\\Hammer",
+			"AddToDB": true
+		},
+		{
+			"Type": "WeaponDef",
+			"Path": "weapons",
+			"AddToDB": true
+		},
+		{
+			"Type": "WeaponAddonDef",
+			"Path": "weaponaddon",
+			"AddToDB": true
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "attachment",
+			"AddToDB": true
+		}
+	]
+}

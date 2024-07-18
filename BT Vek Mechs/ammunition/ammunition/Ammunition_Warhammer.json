@@ -1,0 +1,20 @@
+{
+	"Description": {
+		"Id": "Ammunition_Warhammer",
+		"Name": "Warhammer Ammo",
+		"UIName": "Normal",
+		"Details": "Mid range missiles, capable of dealing extreme damage at mid range. Each missile packs a punch.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "Warhammer_Missile",
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"Unguided": true
+}

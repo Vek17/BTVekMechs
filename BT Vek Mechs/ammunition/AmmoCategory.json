@@ -1,0 +1,18 @@
+{
+	"enumerationValueList": [
+		{
+			"ID": 1717,
+			"Name": "Warhammer_Missile",
+			"FriendlyName": "Warhammer_Missile",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
+		}
+	]
+}

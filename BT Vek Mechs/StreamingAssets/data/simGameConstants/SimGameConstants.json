@@ -1,0 +1,7 @@
+{
+	"Finances" : { 
+		"MechWarriorBaseCostPerPoint" : 225.0,
+		"MechWarriorBonusCostPerPoint" : 185.0,
+		"MechWarriorHiringCostPerPoint" : 2700.0
+	}
+}
