@@ -33,9 +33,8 @@
 		},
 		{
 			"Type": "AmmunitionDef",
-			"Path": "JSON_data\\Ammunition\\ammunition",
+			"Path": "JSON_data\\Ammunition\\AmmunitionDefs",
 			"AddToDB": true
-
 		},
 		{
 			"Type": "AmmunitionBoxDef",

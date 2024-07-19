@@ -44,7 +44,7 @@
 	<Target Name="Deploy" AfterTargets="CopyFilesToOutputDirectory">
 		<MakeDir Directories="$(BattleTechGameDir)\Mods\$(ProjectName)" />
 		<ItemGroup>
-			<Files Include="$(TargetDir)**\*.*"/>
+			<Files Include="$(TargetDir)**\*.*" />
 		</ItemGroup>
 		<Copy SourceFiles="@(Files)" DestinationFiles="@(Files->'$(BattleTechGameDir)\Mods\$(ProjectName)\%(RecursiveDir)%(Filename)%(Extension)')" />
 	</Target>
@@ -133,67 +133,67 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Update="ammunition\AmmoCategory.json">
+	  <None Update="JSON_Data\Ammunition\AmmoCategory.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="ammunition\ammunition\Ammunition_Warhammer.json">
+	  <None Update="JSON_Data\Ammunition\AmmunitionDefs\Ammunition_Warhammer.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="ammunition\Hammer\Ammo_AmmunitionBox_Generic_Warhammer.json">
+	  <None Update="JSON_Data\Ammunition\Hammer\Ammo_AmmunitionBox_Generic_Warhammer.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="ammunition\Hammer\Ammo_AmmunitionBox_Generic_Warhammer_Half.json">
+	  <None Update="JSON_Data\Ammunition\Hammer\Ammo_AmmunitionBox_Generic_Warhammer_Half.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="attachment\Gear_Attachment_WarhammerFCS.json">
+	  <None Update="JSON_Data\Attachments\Gear_Attachment_WarhammerFCS.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="chassis\chassisdef_atlas_AS7-P-WH.json">
+	  <None Update="JSON_Data\Chassis\chassisdef_atlas_AS7-P-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="chassis\chassisdef_catapult_CPLT-B1M.json">
+	  <None Update="JSON_Data\Chassis\chassisdef_catapult_CPLT-B1M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="chassis\chassisdef_catapult_CPLT-B2M.json">
+	  <None Update="JSON_Data\Chassis\chassisdef_catapult_CPLT-B2M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="chassis\chassisdef_chimera_CMA-WH.json">
+	  <None Update="JSON_Data\Chassis\chassisdef_chimera_CMA-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="chassis\chassisdef_kitfox_KFX-WH.json">
+	  <None Update="JSON_Data\Chassis\chassisdef_kitfox_KFX-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="chassis\chassisdef_owens_OW-HAK.json">
+	  <None Update="JSON_Data\Chassis\chassisdef_owens_OW-HAK.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="chassis\chassisdef_summoner_SMN-WH.json">
+	  <None Update="JSON_Data\Chassis\chassisdef_summoner_SMN-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="chassis\chassisdef_uziel_UZL-BEL.json">
+	  <None Update="JSON_Data\Chassis\chassisdef_uziel_UZL-BEL.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="mech\mechdef_atlas_AS7-P-WH.json">
+	  <None Update="JSON_Data\Mechs\mechdef_atlas_AS7-P-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="mech\mechdef_catapult_CPLT-B1M.json">
+	  <None Update="JSON_Data\Mechs\mechdef_catapult_CPLT-B1M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="mech\mechdef_catapult_CPLT-B2M.json">
+	  <None Update="JSON_Data\Mechs\mechdef_catapult_CPLT-B2M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="mech\mechdef_chimera_CMA-WH.json">
+	  <None Update="JSON_Data\Mechs\mechdef_chimera_CMA-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="mech\mechdef_kitfox_KFX-WH.json">
+	  <None Update="JSON_Data\Mechs\mechdef_kitfox_KFX-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="mech\mechdef_owens_OW-HAK.json">
+	  <None Update="JSON_Data\Mechs\mechdef_owens_OW-HAK.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="mech\mechdef_summoner_SMN-WH.json">
+	  <None Update="JSON_Data\Mechs\mechdef_summoner_SMN-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="mech\mechdef_uziel_UZL-BEL.json">
+	  <None Update="JSON_Data\Mechs\mechdef_uziel_UZL-BEL.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="mod.json">
@@ -202,19 +202,19 @@
 	  <None Update="modstate.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="StreamingAssets\data\simGameConstants\SimGameConstants.json">
+	  <None Update="JSON_Data\StreamingAssets\data\simGameConstants\SimGameConstants.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="weaponaddon\WeaponUpgrade_Warhammer_FCS.json">
+	  <None Update="JSON_Data\WeaponAddOn\WeaponUpgrade_Warhammer_FCS.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="weapons\Weapon_Gauss_Gauss_BELIAL.json">
+	  <None Update="JSON_Data\Weapons\Weapon_Gauss_Gauss_BELIAL.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="weapons\Weapon_Warhammer_Missile-CLAN.json">
+	  <None Update="JSON_Data\Weapons\Weapon_Warhammer_Missile-CLAN.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="weapons\Weapon_Warhammer_Missile-STOCK.json">
+	  <None Update="JSON_Data\Weapons\Weapon_Warhammer_Missile-STOCK.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	</ItemGroup>
