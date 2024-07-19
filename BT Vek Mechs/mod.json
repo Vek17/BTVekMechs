@@ -1,6 +1,6 @@
 {
 	"Name": "BT Vek Mechs",
-	"DLL": "BTVekMechs.dll",
+	"DLL": "BT Vek Mechs.dll",
 	"DLLEntryPoint": "VekMechs.Main.Start",
 	"Enabled": true,
 	"Hidden": false,
@@ -8,7 +8,11 @@
 	"Author": "Vek17",
 	"Description": "Contains custom mechs, intended for BTA.",
 	"DependsOn": [
-		"BT Advanced Unique Mechs"
+		"BT Advanced Core",
+		"BT Advanced Unique Mechs",
+		"Custom Ammo Categories",
+		"CustomShops",
+		"DynamicShops"
 	],
 	"DataAddendumEntries": [
 		{
