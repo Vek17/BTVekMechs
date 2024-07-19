@@ -16,9 +16,9 @@ public static class Main {
         s_log.Log("Started");
     }
 
-    [HarmonyPatch(typeof(VersionInfo), nameof(VersionInfo.GetReleaseVersion))]
-    [HarmonyPostfix]
-    [HarmonyAfter("io.github.mpstark.ModTek")]
+    //[HarmonyPatch(typeof(VersionInfo), nameof(VersionInfo.GetReleaseVersion))]
+    //[HarmonyPostfix]
+    //[HarmonyAfter("io.github.mpstark.ModTek")]
     static void GetReleaseVersion(ref string __result) {
         var old = __result;
         __result = old + "\nHTWHX(2)";

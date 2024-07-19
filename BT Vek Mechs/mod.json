@@ -23,38 +23,38 @@
 	"Manifest": [
 		{
 			"Type": "ChassisDef",
-			"Path": "chassis",
+			"Path": "JSON_data\\chassis",
 			"AddToDB": true
 		},
 		{
 			"Type": "MechDef",
-			"Path": "mech",
+			"Path": "JSON_data\\mech",
 			"AddToDB": true
 		},
 		{
 			"Type": "AmmunitionDef",
-			"Path": "ammunition\\ammunition",
+			"Path": "JSON_data\\ammunition\\ammunition",
 			"AddToDB": true
 
 		},
 		{
 			"Type": "AmmunitionBoxDef",
-			"Path": "ammunition\\Hammer",
+			"Path": "JSON_data\\ammunition\\Hammer",
 			"AddToDB": true
 		},
 		{
 			"Type": "WeaponDef",
-			"Path": "weapons",
+			"Path": "JSON_data\\weapons",
 			"AddToDB": true
 		},
 		{
 			"Type": "WeaponAddonDef",
-			"Path": "weaponaddon",
+			"Path": "JSON_data\\weaponaddon",
 			"AddToDB": true
 		},
 		{
 			"Type": "UpgradeDef",
-			"Path": "attachment",
+			"Path": "JSON_data\\attachment",
 			"AddToDB": true
 		}
 	]
