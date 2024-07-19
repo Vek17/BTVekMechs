@@ -23,6 +23,7 @@
 	</PropertyGroup>
 	<Target Name="RemoveLib" BeforeTargets="Clean" Condition="Exists('$(SolutionDir)lib')">
 		<RemoveDir Directories="$(SolutionDir)lib" />
+		<RemoveDir Directories="$(BattleTechGameDir)\Mods\$(ProjectName)" />
 	</Target>
 	<Target Name="CreateLib" BeforeTargets="BeforeBuild" AfterTargets="RemoveLib" Condition="!Exists('$(SolutionDir)lib')">
 		<MakeDir Directories="$(SolutionDir)lib" />
@@ -145,55 +146,55 @@
 	  <None Update="JSON_Data\Ammunition\Hammer\Ammo_AmmunitionBox_Generic_Warhammer_Half.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Attachments\Gear_Attachment_WarhammerFCS.json">
+	  <None Update="JSON_Data\Weapons\Attachments\Gear_Attachment_WarhammerFCS.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Chassis\chassisdef_atlas_AS7-P-WH.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_atlas_AS7-P-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Chassis\chassisdef_catapult_CPLT-B1M.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_catapult_CPLT-B1M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Chassis\chassisdef_catapult_CPLT-B2M.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_catapult_CPLT-B2M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Chassis\chassisdef_chimera_CMA-WH.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_chimera_CMA-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Chassis\chassisdef_kitfox_KFX-WH.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_kitfox_KFX-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Chassis\chassisdef_owens_OW-HAK.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_owens_OW-HAK.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Chassis\chassisdef_summoner_SMN-WH.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_summoner_SMN-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Chassis\chassisdef_uziel_UZL-BEL.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_uziel_UZL-BEL.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\mechdef_atlas_AS7-P-WH.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_atlas_AS7-P-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\mechdef_catapult_CPLT-B1M.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_catapult_CPLT-B1M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\mechdef_catapult_CPLT-B2M.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_catapult_CPLT-B2M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\mechdef_chimera_CMA-WH.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_chimera_CMA-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\mechdef_kitfox_KFX-WH.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_kitfox_KFX-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\mechdef_owens_OW-HAK.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_owens_OW-HAK.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\mechdef_summoner_SMN-WH.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_summoner_SMN-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\mechdef_uziel_UZL-BEL.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_uziel_UZL-BEL.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="mod.json">
@@ -205,7 +206,7 @@
 	  <None Update="JSON_Data\StreamingAssets\data\simGameConstants\SimGameConstants.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\WeaponAddOn\WeaponUpgrade_Warhammer_FCS.json">
+	  <None Update="JSON_Data\Weapons\WeaponAddons\WeaponUpgrade_Warhammer_FCS.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Weapons\Weapon_Gauss_Gauss_BELIAL.json">

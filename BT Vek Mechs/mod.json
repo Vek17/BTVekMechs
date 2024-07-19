@@ -23,12 +23,12 @@
 	"Manifest": [
 		{
 			"Type": "ChassisDef",
-			"Path": "JSON_data\\Chassis",
+			"Path": "JSON_data\\Mechs\\Chassis",
 			"AddToDB": true
 		},
 		{
 			"Type": "MechDef",
-			"Path": "JSON_data\\Mechs",
+			"Path": "JSON_data\\Mechs\\MechDefs",
 			"AddToDB": true
 		},
 		{
@@ -47,13 +47,13 @@
 			"AddToDB": true
 		},
 		{
-			"Type": "WeaponAddonDef",
-			"Path": "JSON_data\\WeaponAddOn",
+			"Type": "UpgradeDef",
+			"Path": "JSON_data\\Weapons\\Attachments",
 			"AddToDB": true
 		},
 		{
-			"Type": "UpgradeDef",
-			"Path": "JSON_data\\Attachments",
+			"Type": "WeaponAddonDef",
+			"Path": "JSON_data\\Weapons\\WeaponAddons",
 			"AddToDB": true
 		}
 	]
