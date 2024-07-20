@@ -1,0 +1,10 @@
+{
+  "TargetID": "AffinityDef_chassis_Evasive",
+  "Instructions": [
+    {
+      "JSONPath": "$.affinityData.chassisNames",
+      "Action": "ArrayAdd",
+      "Value": "Hackman-001_35"
+    }
+  ]
+}

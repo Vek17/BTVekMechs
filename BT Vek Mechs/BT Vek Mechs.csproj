@@ -197,6 +197,9 @@
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_uziel_UZL-BEL.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Merges\MechAffinities\AffinityDef_chassis_Evasive.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="mod.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>

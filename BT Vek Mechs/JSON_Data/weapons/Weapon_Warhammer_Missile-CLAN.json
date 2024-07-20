@@ -9,14 +9,12 @@
 			}
 		],
 		"BonusDescriptions": [
-				"NoFireInMelee",
-				"DelayedImpact: 2",
-				"AreaOfEffect: 40",
-				"AreaOfEffectDmg: 175",
-				"AreaOfEffectSTABDmg: 30",
-				"MissileHealth: 8",
-				"WeaponAttachmentCompatible: Warhammer FCS"
-			]
+			"NoFireInMelee",
+			"DelayedImpact: 1",
+			"AreaOfEffect: 40",
+			"MissileHealth: 8",
+			"WeaponAttachmentCompatible: Warhammer FCS"
+		]
 	},
 	"Category": "Missile",
 	"Type": "LRM",
@@ -31,12 +29,14 @@
 	"AmmoCategory": "Warhammer_Missile",
 	"StartingAmmoCapacity": 0,
 	"HeatGenerated": 40,
-	"Damage": 25,
+	"Damage": 200,
+	"Instability": 30,
+	"HeatDamage": 0,
+	"OnlyDefferEffect": true,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 0,
 	"DamageVariance": 0,
-	"HeatDamage": 0,
 	"AccuracyModifier": 0,
 	"CriticalChanceMultiplier": 1,
 	"AOECapable": false,
@@ -45,7 +45,6 @@
 	"ShotsWhenFired": 1,
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 3,
-	"Instability": 5,
 	"MissileHealth": 8,
 	"WeaponEffectID": "WeaponEffect-Weapon_SRM6",
 	"ImprovedBallistic": true,
@@ -59,7 +58,7 @@
 		"UIName": "Warhammer (C)",
 		"Id": "Weapon_Warhammer_Missile-CLAN",
 		"Name": "Warhammer (C)",
-		"Details": "The Warhammer Missile is an offshoot of the Arrow IV missile based artillery system. Using a smaller more focused warhead and a deep penetrating body the Warhammer is designed to destroy hard targets rather than large scale destruction. In order to fit the powerful warhead into the missile all guidence systems were removed, and fusing was simplified to a simple time delay. This results in Warhammers embedding themselves into whatever they hit before detonating a short time later.\n\n <b><color=#ffcc00>Uses Hammer Ammo.</color></b>",
+		"Details": "The Warhammer Missile is an offshoot of the Arrow IV missile based artillery system. Using a smaller more focused warhead and a deep penetrating body the Warhammer is designed to destroy hard targets rather than large scale destruction. In order to fit the powerful warhead into the missile all guidence systems were removed, and fusing was simplified to a simple time delay. This results in Warhammers embedding themselves into whatever they hit before detonating a short time later.\n\n <b><color=#ffcc00>Uses Warhammer Ammo.</color></b>",
 		"Icon": "missile-pod"
 	},
 	"BonusValueA": "",
@@ -89,7 +88,7 @@
 		},
 		"damageApplyTime": 1,
 		"AOERange": 40,
-		"AOEDamage": 175,
+		"AOEDamage": 200,
 		"AOEHeatDamage": 0,
 		"AOEInstability": 30,
 		"RangeColor": {

@@ -62,10 +62,6 @@
 				{
 					"WeaponMountID": "Missile",
 					"Omni": false
-				},
-				{
-					"WeaponMountID": "Missile",
-					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -131,10 +127,6 @@
 		{
 			"Location": "RightArm",
 			"Hardpoints": [
-				{
-					"WeaponMountID": "Missile",
-					"Omni": false
-				},
 				{
 					"WeaponMountID": "Missile",
 					"Omni": false

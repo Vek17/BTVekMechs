@@ -12,7 +12,8 @@
 		"BT Advanced Unique Mechs",
 		"Custom Ammo Categories",
 		"CustomShops",
-		"DynamicShops"
+		"DynamicShops",
+		"MechAffinity"
 	],
 	"DataAddendumEntries": [
 		{
@@ -23,38 +24,42 @@
 	"Manifest": [
 		{
 			"Type": "ChassisDef",
-			"Path": "JSON_data\\Mechs\\ChassisDefs",
+			"Path": "JSON_Data\\Mechs\\ChassisDefs",
 			"AddToDB": true
 		},
 		{
 			"Type": "MechDef",
-			"Path": "JSON_data\\Mechs\\MechDefs",
+			"Path": "JSON_Data\\Mechs\\MechDefs",
 			"AddToDB": true
 		},
 		{
 			"Type": "AmmunitionDef",
-			"Path": "JSON_data\\Ammunition\\AmmunitionDefs",
+			"Path": "JSON_Data\\Ammunition\\AmmunitionDefs",
 			"AddToDB": true
 		},
 		{
 			"Type": "AmmunitionBoxDef",
-			"Path": "JSON_data\\Ammunition\\Hammer",
+			"Path": "JSON_Data\\Ammunition\\Hammer",
 			"AddToDB": true
 		},
 		{
 			"Type": "WeaponDef",
-			"Path": "JSON_data\\Weapons",
+			"Path": "JSON_Data\\Weapons",
 			"AddToDB": true
 		},
 		{
 			"Type": "UpgradeDef",
-			"Path": "JSON_data\\Attachments",
+			"Path": "JSON_Data\\Attachments",
 			"AddToDB": true
 		},
 		{
 			"Type": "WeaponAddonDef",
-			"Path": "JSON_data\\WeaponAddons",
+			"Path": "JSON_Data\\WeaponAddons",
 			"AddToDB": true
+		},
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "JSON_Merges\\MechAffinities"
 		}
 	]
 }
