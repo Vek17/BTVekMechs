@@ -146,7 +146,7 @@
 	  <None Update="JSON_Data\Ammunition\Hammer\Ammo_AmmunitionBox_Generic_Warhammer_Half.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Weapons\Attachments\Gear_Attachment_WarhammerFCS.json">
+	  <None Update="JSON_Data\Attachments\Gear_Attachment_WarhammerFCS.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_atlas_AS7-P-WH.json">
@@ -206,7 +206,7 @@
 	  <None Update="JSON_Data\StreamingAssets\data\simGameConstants\SimGameConstants.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Weapons\WeaponAddons\WeaponUpgrade_Warhammer_FCS.json">
+	  <None Update="JSON_Data\WeaponAddons\WeaponUpgrade_Warhammer_FCS.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Weapons\Weapon_Gauss_Gauss_BELIAL.json">
@@ -219,5 +219,7 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	</ItemGroup>
+
+	<ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>

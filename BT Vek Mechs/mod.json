@@ -17,13 +17,13 @@
 	"DataAddendumEntries": [
 		{
 			"name": "BattleTech.AmmoCategoryEnumeration",
-			"path": "ammunition\\AmmoCategory.json"
+			"path": "JSON_data\\Ammunition\\AmmoCategory.json"
 		}
 	],
 	"Manifest": [
 		{
 			"Type": "ChassisDef",
-			"Path": "JSON_data\\Mechs\\Chassis",
+			"Path": "JSON_data\\Mechs\\ChassisDefs",
 			"AddToDB": true
 		},
 		{
@@ -48,12 +48,12 @@
 		},
 		{
 			"Type": "UpgradeDef",
-			"Path": "JSON_data\\Weapons\\Attachments",
+			"Path": "JSON_data\\Attachments",
 			"AddToDB": true
 		},
 		{
 			"Type": "WeaponAddonDef",
-			"Path": "JSON_data\\Weapons\\WeaponAddons",
+			"Path": "JSON_data\\WeaponAddons",
 			"AddToDB": true
 		}
 	]

@@ -9,15 +9,15 @@
 			"not_broken"
 		],
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 175,
+			"ExplosionDamagePerAmmo": 200,
 			"StabilityDamagePerAmmo": 30
 		},
 		"BonusDescriptions": [
-				"CostPerShot: 800",
+				"CostPerShot: 1000",
 				"AmmoCount: 6"
 			],
 		"AmmoCost": {
-			"PerUnitCost": 800
+			"PerUnitCost": 1000
 		}
 	},
 	"AmmoID": "Ammunition_Warhammer",
