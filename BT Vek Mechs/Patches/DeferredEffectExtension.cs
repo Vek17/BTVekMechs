@@ -13,6 +13,7 @@ namespace VekMechs.Patches;
 
 static class DeferredEffectExtension {
     private static Regex TriggerAfterActivation = new("TriggerAfterActivation");
+    private static Regex Building = new("Building");
 
     //Update display counts for stuck tagged units
     [HarmonyPatch(typeof(DeferredEffect), nameof(DeferredEffect.RoundsRemain))]
@@ -20,9 +21,7 @@ static class DeferredEffectExtension {
 
         [HarmonyPostfix]
         static void Postfix(ref DeferredEffect __instance, ref int __result) {
-            if (TriggerAfterActivation.IsMatch(__instance.definition.id)
-                && __instance.ancor != null
-            ) {
+            if (TriggerAfterActivation.IsMatch(__instance.definition.id) && __instance.ancor != null) {
                 __result = 1;
             }
         }
@@ -39,9 +38,14 @@ static class DeferredEffectExtension {
         [HarmonyPostfix]
         static void Postfix(ref DeferredEffect __instance, Weapon weapon, DeferredEffectDef def, int currentRound, ICombatant ancor) {
             int roundsText = 1;
-            if (ancor == null || !TriggerAfterActivation.IsMatch(__instance.definition.id)) {
+            if (ancor is Building) {
+                __instance.offset = __instance.ancor.position;
+                __instance.ancor = null;
+            }
+            if (ancor == null || !TriggerAfterActivation.IsMatch(__instance.definition.id)){
                 return;
             }
+            
             __instance.CountDownFloatie.Text.SetText(def.text + ":" + roundsText.ToString());
         }
     }

@@ -1,7 +1,6 @@
 {
 	"MechTags": {
 		"items": [
-			"unit_indirectFire",
 			"unit_jumpOK",
 			"unit_generic",
 			"unit_bracket_med",
@@ -10,8 +9,10 @@
 			"unit_heavy",
 			"unit_release",
 			"unit_rarity_2",
+			"unit_lance_support",
 			"unit_lance_vanguard",
 			"unit_role_sniper",
+			"unit_role_brawler",
 			"ComStar",
 			"11thArmyVEta",
 			"7thArmyVIota",
