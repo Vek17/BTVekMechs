@@ -17,7 +17,7 @@ namespace VekMechs.Patches;
 
 static class DeferredEffectExtension {
     private static Regex TriggerAfterActivation = new("TriggerAfterActivation");
-    private static Regex EnableAOECrit = new("EnableAOECrit");
+    private static Regex EnableAOECrit = new("EnableAoECrit");
     private static Regex Building = new("Building");
 
     //Update display counts for stuck tagged units

@@ -74,7 +74,7 @@
 	"CriticalComponent": false,
 	"statusEffects": [],
 	"deferredEffect": {
-		"id": "TriggerAfterActivation_EnableAOECrit_HAMMERSTICK",
+		"id": "TriggerAfterActivation_EnableAoECrit_HAMMERSTICK",
 		"rounds": 2,
 		"text": "Warhammer",
 		"VFX": "WFX_ExplosiveSmokeM",
