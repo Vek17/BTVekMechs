@@ -1,17 +1,13 @@
 ﻿using BattleTech;
 using CustAmmoCategories;
-using EasyLayout;
 using HarmonyLib;
-using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Reflection;
-using System.Security.Cryptography;
+using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 using UnityEngine;
-using BattleTech.Save.SaveGameStructure;
 
 namespace VekMechs.Patches;
 
@@ -32,7 +28,7 @@ static class DeferredEffectExtension {
         }
     }
     //Update display counts for stuck tagged units
-    [HarmonyPatch(typeof(DeferredEffect), nameof(DeferredEffect.Init), new Type[] { 
+    [HarmonyPatch(typeof(DeferredEffect), nameof(DeferredEffect.Init), new Type[] {
         typeof(Weapon),
         typeof(DeferredEffectDef),
         typeof(int),
@@ -47,17 +43,17 @@ static class DeferredEffectExtension {
                 __instance.offset = __instance.ancor.position;
                 __instance.ancor = null;
             }
-            if (ancor == null || !TriggerAfterActivation.IsMatch(__instance.definition.id)){
+            if (ancor == null || !TriggerAfterActivation.IsMatch(__instance.definition.id)) {
                 return;
             }
-            
+
             __instance.CountDownFloatie.Text.SetText(def.text + ":" + roundsText.ToString());
         }
     }
     //Trigger tagged effects after a mech activates
     [HarmonyPatch(typeof(AbstractActor), nameof(AbstractActor.OnActivationEnd))]
     static class AbstractActor_OnActivationEnd_DefferedEffectTrigger {
-        
+
         [HarmonyPostfix]
         static void Postfix(ref AbstractActor __instance) {
             HashSet<DeferredEffect> hashSet = new HashSet<DeferredEffect>();
@@ -65,7 +61,7 @@ static class DeferredEffectExtension {
 
             foreach (DeferredEffect deferredEffect in DeferredEffectHelper.deferredEffects) {
                 if (TriggerAfterActivation.IsMatch(deferredEffect.definition.id)
-                    && ancor == deferredEffect.ancor 
+                    && ancor == deferredEffect.ancor
                 ) {
                     hashSet.Add(deferredEffect);
                     deferredEffect.PlayEffect();
