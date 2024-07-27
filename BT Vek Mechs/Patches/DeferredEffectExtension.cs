@@ -112,10 +112,10 @@ static class DeferredEffectExtension {
             var target = FindInsertionTarget(codes);
 
             codes.InsertRange(target, new CodeInstruction[] {
-                new CodeInstruction(OpCodes.Ldarg_0),
-                new CodeInstruction(OpCodes.Ldloc_S, 63),
-                new CodeInstruction(OpCodes.Ldloc_S, 66),
-                new CodeInstruction(OpCodes.Ldloc_S, 10),
+                new CodeInstruction(OpCodes.Ldarg_0),       //instance
+                new CodeInstruction(OpCodes.Ldloc_S, 63),   //key
+                new CodeInstruction(OpCodes.Ldloc_S, 66),   //keyValuePair5
+                new CodeInstruction(OpCodes.Ldloc_S, 10),   //hitInfo
                 new CodeInstruction(OpCodes.Call, DeferredEffectExtentsion_ApplyCritEffect)
             });
 
