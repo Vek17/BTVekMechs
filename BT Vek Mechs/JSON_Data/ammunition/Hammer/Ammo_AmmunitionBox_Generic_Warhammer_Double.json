@@ -1,0 +1,55 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "a/m/t/thunderbolt"
+      }
+    ],
+    "Flags": [
+      "not_broken"
+    ],
+    "ComponentExplosion": {
+      "ExplosionDamagePerAmmo": 200,
+      "StabilityDamagePerAmmo": 30
+    },
+    "BonusDescriptions": [
+      "CostPerShot: 1000",
+      "AmmoCount: 12"
+    ],
+    "AmmoCost": {
+      "PerUnitCost": 1000
+    }
+  },
+  "AmmoID": "Ammunition_Warhammer",
+  "Capacity": 12,
+  "Description": {
+    "Cost": 50000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Hammer",
+    "UIName": "Ammo Warhammer [Double]",
+    "Id": "Ammo_AmmunitionBox_Generic_Warhammer_Double",
+    "Name": "Warhammer Ammo",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.",
+    "Icon": "missile-pod-ammo"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 2,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

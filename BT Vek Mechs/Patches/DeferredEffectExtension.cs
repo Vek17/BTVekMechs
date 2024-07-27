@@ -5,14 +5,19 @@ using HarmonyLib;
 using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection.Emit;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using BattleTech.Save.SaveGameStructure;
 
 namespace VekMechs.Patches;
 
 static class DeferredEffectExtension {
     private static Regex TriggerAfterActivation = new("TriggerAfterActivation");
+    private static Regex EnableAOECrit = new("EnableAOECrit");
     private static Regex Building = new("Building");
 
     //Update display counts for stuck tagged units
@@ -90,6 +95,55 @@ static class DeferredEffectExtension {
                     deferredEffect.CountDownFloatie.Text.SetText(deferredEffect.definition.text + ":" + deferredEffect.RoundsRemain(DeferredEffectHelper.CurrentRound).ToString());
                 }
             }
+        }
+    }
+    //Enable Crit support
+    [HarmonyPatch(typeof(DeferredEffect), nameof(DeferredEffect.applyAOEDamage))]
+    static class DeferredEffect_applyAOEDamage_CritPatch {
+        static readonly MethodInfo DeferredEffectExtentsion_ApplyCritEffect = AccessTools.Method(
+            typeof(DeferredEffectExtension.DeferredEffect_applyAOEDamage_CritPatch),
+            nameof(DeferredEffectExtension.DeferredEffect_applyAOEDamage_CritPatch.ApplyCritEffect)
+        );
+        static readonly MethodInfo ICombatant_TakeWeaponDamage = AccessTools.Method(
+            typeof(ICombatant),
+            nameof(ICombatant.TakeWeaponDamage)
+        );
+
+        [HarmonyTranspiler]
+        static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) {
+
+            var codes = new List<CodeInstruction>(instructions);
+            var target = FindInsertionTarget(codes);
+
+            codes.InsertRange(target, new CodeInstruction[] {
+                new CodeInstruction(OpCodes.Ldarg_0),
+                new CodeInstruction(OpCodes.Ldloc_S, 63),
+                new CodeInstruction(OpCodes.Ldloc_S, 66),
+                new CodeInstruction(OpCodes.Ldloc_S, 10),
+                new CodeInstruction(OpCodes.Call, DeferredEffectExtentsion_ApplyCritEffect)
+            });
+
+            return codes.AsEnumerable();
+        }
+
+        private static int FindInsertionTarget(List<CodeInstruction> codes) {
+            for (int i = 0; i < codes.Count; i++) {
+                if (codes[i].opcode == OpCodes.Callvirt && codes[i].Calls(ICombatant_TakeWeaponDamage)) {
+                    return i + 1;
+                }
+            }
+            Main.s_log.Log("DeferredEffect_applyAOEDamage_CritPatch: COULD NOT FIND TARGET");
+            return -1;
+        }
+        private static void ApplyCritEffect(DeferredEffect instance, ICombatant target, KeyValuePair<int, AoEExplosionHitRecord> locationRecord, WeaponHitInfo hitInfo) {
+            if (!EnableAOECrit.IsMatch(instance.definition.id)) { return; }
+            var weapon = instance.weapon;
+            var location = locationRecord.Key;
+            var unit = target as AbstractActor;
+            if (unit == null) { return; }
+            var critInfo = new AdvCritLocationInfo(location, unit);
+
+            unit.CheckForCrit(ref hitInfo, critInfo, weapon);
         }
     }
 }
