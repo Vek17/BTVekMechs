@@ -1,0 +1,10 @@
+{
+  "TargetID": "AffinityDef_chassis_Unlimited_Power",
+  "Instructions": [
+    {
+      "JSONPath": "$.affinityData.chassisNames",
+      "Action": "ArrayAdd",
+      "Value": "GrandSummoner-001_70"
+    }
+  ]
+}

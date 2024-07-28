@@ -1,4 +1,20 @@
 {
+	"ChassisID": "chassisdef_catapult_CPLT-B1M",
+	"HeraldryID": null,
+	"Description": {
+		"Cost": 1476000,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": null,
+		"Model": null,
+		"UIName": "Bowman CPLT-B1M",
+		"Id": "mechdef_catapult_CPLT-B1M",
+		"Name": "Bowman",
+		"Details": "The Bowman B1M is a refit of the Catapult C1 with mid range Warhammer missiles and ferro-fibrous armor. This has given it incredibly punch at mid range at the expense of it's safe fire support role. While potent, many pilots have complained that the Warhammer misses are somewhat unwieldy.",
+		"Icon": "uixTxrIcon_catapult"
+	},
+	"simGameMechPartCost": 740000,
+	"Version": 1,
 	"MechTags": {
 		"items": [
 			"unit_jumpOK",
@@ -190,22 +206,6 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"ChassisID": "chassisdef_catapult_CPLT-B1M",
-	"HeraldryID": null,
-	"Description": {
-		"Cost": 1476000,
-		"Rarity": 3,
-		"Purchasable": true,
-		"Manufacturer": null,
-		"Model": null,
-		"UIName": "Bowman CPLT-B1M",
-		"Id": "mechdef_catapult_CPLT-B1M",
-		"Name": "Bowman",
-		"Details": "The Bowman B1M is a refit of the Catapult C1 with mid range Warhammer missiles and ferro-fibrous armor. This has given it incredibly punch at mid range at the expense of it's safe fire support role. While potent, many pilots have complained that the Warhammer misses are somewhat unwieldy.",
-		"Icon": "uixTxrIcon_catapult"
-	},
-	"simGameMechPartCost": 740000,
-	"Version": 1,
 	"Locations": [
 		{
 			"DamageLevel": "Functional",

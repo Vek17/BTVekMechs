@@ -1,4 +1,20 @@
 {
+	"ChassisID": "chassisdef_kitfox_KFX-WH",
+	"HeraldryID": null,
+	"Description": {
+		"Cost": 398000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": null,
+		"Model": null,
+		"UIName": "Kit Fox KFX-WF",
+		"Id": "mechdef_kitfox_KFX-WH",
+		"Name": "Kit Fox",
+		"Details": "The Kit Fox is a light Clan OmniMech with long-range combat as a primary focus. The Kit Fox is somewhat slow for its weight class, only capable of a top speed of 97.2 km/h, provided by a lightweight 180 XL Fusion Engine. Available tonnage is further increased by the use of a lightweight Endo Steel chassis and Ferro-Fibrous armor. The WH configuration of the Kit Fox is armed with a Warhammer Missile Launcher which is capable of delivering large amounts of damage, especially for such a small Mech. This is backed up by two ER Medium Lasers for mid range combat.",
+		"Icon": "uixTxrIcon_kitfox"
+	},
+	"simGameMechPartCost": 200000,
+	"Version": 1,
 	"MechTags": {
 		"items": [
 			"unit_mech",
@@ -26,22 +42,6 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"ChassisID": "chassisdef_kitfox_KFX-WH",
-	"HeraldryID": null,
-	"Description": {
-		"Cost": 398000,
-		"Rarity": 5,
-		"Purchasable": true,
-		"Manufacturer": null,
-		"Model": null,
-		"UIName": "Kit Fox KFX-WF",
-		"Id": "mechdef_kitfox_KFX-WH",
-		"Name": "Kit Fox",
-		"Details": "The Kit Fox is a light Clan OmniMech with long-range combat as a primary focus. The Kit Fox is somewhat slow for its weight class, only capable of a top speed of 97.2 km/h, provided by a lightweight 180 XL Fusion Engine. Available tonnage is further increased by the use of a lightweight Endo Steel chassis and Ferro-Fibrous armor. The WH configuration of the Kit Fox is armed with a Warhammer Missile Launcher which is capable of delivering large amounts of damage, especially for such a small Mech. This is backed up by two ER Medium Lasers for mid range combat.",
-		"Icon": "uixTxrIcon_kitfox"
-	},
-	"simGameMechPartCost": 200000,
-	"Version": 1,
 	"Locations": [
 		{
 			"DamageLevel": "Functional",
