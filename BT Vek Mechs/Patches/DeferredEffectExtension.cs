@@ -104,7 +104,16 @@ static class DeferredEffectExtension {
             typeof(ICombatant),
             nameof(ICombatant.TakeWeaponDamage)
         );
-
+        /* Pre Transpiler
+         * ...
+         * key.TakeWeaponDamage(hitInfo, keyValuePair5.Key, this.weapon, keyValuePair5.Value.Damage, 0f, 0, DamageType.AmmoExplosion);
+         * ...
+         * Post Transpiler
+         * ...
+         * key.TakeWeaponDamage(hitInfo, keyValuePair5.Key, this.weapon, keyValuePair5.Value.Damage, 0f, 0, DamageType.AmmoExplosion);
+         * ApplyCritEffect(this, key, keyValuePair5, hitInfo);
+         * ...
+         */
         [HarmonyTranspiler]
         static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) {
 
