@@ -1,4 +1,6 @@
 {
+	"VariantName": "CMA-WH",
+	"StockRole": "Mid-Range Flanker",
 	"Description": {
 		"Cost": 3435960,
 		"Rarity": 1,
@@ -11,8 +13,6 @@
 		"Details": "Similar to the earlier Gunslinger, the Chimera was designed in the spirit of cooperation between the Combine and the Federated Commonwealth in the lead-up to Operations Bulldog and Serpent. Eventually, the design was co-oped by Archon Katherine Steiner in the lead up to the FedCom Civil War, but thanks to Theodore Kurita Chimeras still made their way to pro-Victor units. The Chimera is built on an Endo Steel chassis that carries a 240 XL engine and the Chimera's mobility is enhanced by six jump jets. The Chimera carries an eclectic mix of weapons. The 'Mech has, as its primary weapon, a Warhammer Missile Launcher. For close combat, the Chimera is armed with a two ER Medium Lasers. The CMA-WH also mounts C3 Slave unit following the succses of the CMA-C.",
 		"Icon": "uixTxrIcon_chimera"
 	},
-	"VariantName": "CMA-WH",
-	"StockRole": "Mid-Range Flanker",
 	"YangsThoughts": "Similar to the earlier Gunslinger, the Chimera was designed in the spirit of cooperation between the Combine and the Federated Commonwealth in the lead-up to Operations Bulldog and Serpent. Eventually, the design was co-oped by Archon Katherine Steiner in the lead up to the FedCom Civil War, but thanks to Theodore Kurita Chimeras still made their way to pro-Victor units. The Chimera is built on an Endo Steel chassis that carries a 240 XL engine and the Chimera's mobility is enhanced by six jump jets. The Chimera carries an eclectic mix of weapons. The 'Mech has, as its primary weapon, a Warhammer Missile Launcher. For close combat, the Chimera is armed with a two ER Medium Lasers. The CMA-WH also mounts C3 Slave unit following the succses of the CMA-C.",
 	"PrefabIdentifier": "chrprfmech_chimerabase-001",
 	"PrefabBase": "chimera",
@@ -50,6 +50,7 @@
 	"DFAToHitModifier": 0,
 	"DFASelfDamage": 45,
 	"DFAInstability": 20,
+	"MechPartMax": 0,
 	"ChassisTags": {
 		"items": [
 			"ArmLimitLowerRight",
@@ -58,7 +59,6 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"MechPartMax": 0,
 	"LOSSourcePositions": [
 		{
 			"x": 0,

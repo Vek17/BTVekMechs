@@ -1,4 +1,6 @@
 {
+	"VariantName": "HKM-MA",
+	"StockRole": "Long Range Harassment",
 	"Description": {
 		"Cost": 3300000,
 		"Rarity": 1,
@@ -11,13 +13,14 @@
 		"Details": "The Hackman is a heavy modification of the Owens mech, focused on long ranged harassment rather than scounting and spotting. Equiped with a stealth system and hard fitted ECM, it is designed to opperate at long range while being difficult to engage. The weaponry on the Hackman is the focus of the mech, carrying a full sized Gauss Rifle and an SRM6.",
 		"Icon": "uixTxrIcon_owens"
 	},
+	"YangsThoughts": "The Hackman is a heavy modification of the Owens mech, focused on long ranged harassment rather than scounting and spotting. Equiped with a stealth system and hard fitted ECM, it is designed to opperate at long range while being difficult to engage. The weaponry on the Hackman is the focus of the mech, carrying a full sized Gauss Rifle and an SRM6.",
 	"Custom": {
-        "AssemblyVariant": {
-            "PrefabID": "Hackman-001",
-            "Exclude": false,
-            "Include": true
-        }
-    },
+		"AssemblyVariant": {
+			"PrefabID": "Hackman-001",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"MovementCapDefID": "movedef_jenner_JR7-D",
 	"PathingCapDefID": "pathingdef_light",
 	"HardpointDataDefID": "hardpointdatadef_owens",
@@ -53,6 +56,15 @@
 	"DFAToHitModifier": 0,
 	"DFASelfDamage": 35,
 	"DFAInstability": 15,
+	"ChassisTags": {
+		"items": [
+			"OmniMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
 	"Locations": [
 		{
 			"Location": "Head",
@@ -200,18 +212,6 @@
 			"z": 0.5
 		}
 	],
-	"VariantName": "HKM-MA",
-	"ChassisTags": {
-		"items": [
-			"OmniMech",
-			"ArmLimitUpperRight",
-			"ArmLimitUpperLeft",
-			"LightMech"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "Long Range Harassment",
-	"YangsThoughts": "The Hackman is a heavy modification of the Owens mech, focused on long ranged harassment rather than scounting and spotting. Equiped with a stealth system and hard fitted ECM, it is designed to opperate at long range while being difficult to engage. The weaponry on the Hackman is the focus of the mech, carrying a full sized Gauss Rifle and an SRM6.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

@@ -1,125 +1,6 @@
 {
-	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_clanendosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engine_180",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engineslots_cxl_center",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_engineslots_size2",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "emod_engineslots_size2",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_clanferrosfibrous",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_kit_cdhs",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-			"SimGameUID": "",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-			"SimGameUID": "",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engine_cooling",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		}
-	],
+	"VariantName": "KFX-WH",
+	"StockRole": "Light Skirmisher",
 	"Description": {
 		"Cost": 2123540,
 		"Rarity": 5,
@@ -132,6 +13,7 @@
 		"Details": "The Kit Fox is a light Clan OmniMech with long-range combat as a primary focus. The Kit Fox is somewhat slow for its weight class, only capable of a top speed of 97.2 km/h, provided by a lightweight 180 XL Fusion Engine. Available tonnage is further increased by the use of a lightweight Endo Steel chassis and Ferro-Fibrous armor. The WH configuration of the Kit Fox is armed with a Warhammer Missile Launcher which is capable of delivering large amounts of damage, especially for such a small Mech. This is backed up by two ER Medium Lasers for mid range combat.",
 		"Icon": "uixTxrIcon_kitfox"
 	},
+	"YangsThoughts": "The Kit Fox is a light Clan OmniMech with long-range combat as a primary focus. The Kit Fox is somewhat slow for its weight class, only capable of a top speed of 97.2 km/h, provided by a lightweight 180 XL Fusion Engine. Available tonnage is further increased by the use of a lightweight Endo Steel chassis and Ferro-Fibrous armor. The WH configuration of the Kit Fox is armed with a Warhammer Missile Launcher which is capable of delivering large amounts of damage, especially for such a small Mech. This is backed up by two ER Medium Lasers for mid range combat.",
 	"MovementCapDefID": "movedef_kitfox",
 	"PathingCapDefID": "pathingdef_light",
 	"HardpointDataDefID": "hardpointdatadef_kitfox",
@@ -167,6 +49,15 @@
 	"DFAToHitModifier": 0,
 	"DFASelfDamage": 25,
 	"DFAInstability": 5,
+	"ChassisTags": {
+		"items": [
+			"ClanMech",
+			"OmniMech",
+			"ArmLimitUpperRight",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
 	"Locations": [
 		{
 			"Location": "Head",
@@ -307,18 +198,127 @@
 			"z": 0
 		}
 	],
-	"VariantName": "KFX-WH",
-	"ChassisTags": {
-		"items": [
-			"ClanMech",
-			"OmniMech",
-			"ArmLimitUpperRight",
-			"LightMech"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "Light Skirmisher",
-	"YangsThoughts": "The Kit Fox is a light Clan OmniMech with long-range combat as a primary focus. The Kit Fox is somewhat slow for its weight class, only capable of a top speed of 97.2 km/h, provided by a lightweight 180 XL Fusion Engine. Available tonnage is further increased by the use of a lightweight Endo Steel chassis and Ferro-Fibrous armor. The WH configuration of the Kit Fox is armed with a Warhammer Missile Launcher which is capable of delivering large amounts of damage, especially for such a small Mech. This is backed up by two ER Medium Lasers for mid range combat.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_clanendosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_180",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_cxl_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_clanferrosfibrous",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_kit_cdhs",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+			"SimGameUID": "",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+			"SimGameUID": "",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_cooling",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
 	"CustomParts": {
 		"CustomParts": []
 	}

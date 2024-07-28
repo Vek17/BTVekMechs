@@ -1,4 +1,6 @@
 {
+	"VariantName": "CPLT-B2M",
+	"StockRole": "Heavy Fire Support",
 	"Description": {
 		"Cost": 5800000,
 		"Rarity": 3,
@@ -11,6 +13,7 @@
 		"Details": "The Bowman B2M is a small upgrade of the Bowman B1M. Still featuring mid range Warhammer missiles, the structure has been rebuilt with clan endo steel and the armor replaced with specialized reflective armor. This results in increased surviability over the B1M without sacrificing any offensive punch.",
 		"Icon": "uixTxrIcon_catapult"
 	},
+	"YangsThoughts": "The Bowman B2M is a small upgrade of the Bowman B1M. Still featuring mid range Warhammer missiles, the structure has been rebuilt with clan spec endo steel and the armor replaced with specialized reflective armor. This results in increased surviability over the B1M without sacrificing any offensive punch.",
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",
 	"PathingCapDefID": "pathingdef_heavy",
 	"HardpointDataDefID": "hardpointdatadef_catapult",
@@ -46,6 +49,14 @@
 	"DFAToHitModifier": 0,
 	"DFASelfDamage": 65,
 	"DFAInstability": 30,
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"HeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
 	"Locations": [
 		{
 			"Location": "Head",
@@ -201,17 +212,6 @@
 			"z": 0
 		}
 	],
-	"VariantName": "CPLT-B2M",
-	"ChassisTags": {
-		"items": [
-			"ArmLimitUpperRight",
-			"ArmLimitUpperLeft",
-			"HeavyMech"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "Heavy Fire Support",
-	"YangsThoughts": "The Bowman B2M is a small upgrade of the Bowman B1M. Still featuring mid range Warhammer missiles, the structure has been rebuilt with clan spec endo steel and the armor replaced with specialized reflective armor. This results in increased surviability over the B1M without sacrificing any offensive punch.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

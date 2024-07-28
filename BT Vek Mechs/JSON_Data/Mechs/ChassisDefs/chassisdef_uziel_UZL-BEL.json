@@ -1,4 +1,6 @@
 {
+	"VariantName": "UZL-BEL",
+	"StockRole": "Heavy Skirmisher",
 	"Description": {
 		"Cost": 4648000,
 		"Rarity": 4,
@@ -11,6 +13,7 @@
 		"Details": "This clan modification of the Uziel mounts a pair of modified Gauss Rifles instead of PPCs, a small pulse laser in each side torso, and an SRM-6 in the center. Dubbed the Belial, this mech is powered by an Clan XXL 300 engine and has been heavily integrated with Clan tech. This provides and incredible amount of ranged firepower and durability in a fast 50 ton package.",
 		"Icon": "uixTxrIcon_uziel"
 	},
+	"YangsThoughts": "This clan modification of the Uziel mounts a pair of modified Gauss Rifles instead of PPCs, a small ER Pulse Laser in each side torso, and a Clan SRM-6 in the center. Dubbed the Belial, this mech retains the signiture mobility of the Uziel while offering an impressive level of firepower for its size.",
 	"MovementCapDefID": "movedef_uziel_UZL-3S",
 	"PathingCapDefID": "pathingdef_medium",
 	"HardpointDataDefID": "hardpointdatadef_uziel",
@@ -46,6 +49,14 @@
 	"DFAToHitModifier": 0,
 	"DFASelfDamage": 50,
 	"DFAInstability": 25,
+	"ChassisTags": {
+		"items": [
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"MediumMech"
+		],
+		"tagSetSourceFile": ""
+	},
 	"Locations": [
 		{
 			"Location": "Head",
@@ -189,17 +200,6 @@
 			"z": 2
 		}
 	],
-	"VariantName": "UZL-BEL",
-	"ChassisTags": {
-		"items": [
-			"ArmLimitLowerRight",
-			"ArmLimitLowerLeft",
-			"MediumMech"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "Heavy Skirmisher",
-	"YangsThoughts": "This clan modification of the Uziel mounts a pair of modified Gauss Rifles instead of PPCs, a small ER Pulse Laser in each side torso, and a Clan SRM-6 in the center. Dubbed the Belial, this mech retains the signiture mobility of the Uziel while offering an impressive level of firepower for its size.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

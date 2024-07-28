@@ -147,7 +147,7 @@ static class DeferredEffectExtension {
             var unit = target as AbstractActor;
             if (unit == null) { return; }
             var critInfo = new AdvCritLocationInfo(location, unit);
-
+            
             unit.CheckForCrit(ref hitInfo, critInfo, weapon);
         }
     }

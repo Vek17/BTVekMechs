@@ -1,4 +1,6 @@
 {
+	"VariantName": "CPLT-B1M",
+	"StockRole": "Heavy Fire Support",
 	"Description": {
 		"Cost": 5800000,
 		"Rarity": 3,
@@ -11,6 +13,7 @@
 		"Details": "The Bowman B1M is a refit of the Catapult C1 with mid range Warhammer missiles and ferro-fibrous armor. This has given it incredibly punch at mid range at the expense of it's safe fire support role. While potent, many pilots have complained that the Warhammer misses are somewhat unwieldy.",
 		"Icon": "uixTxrIcon_catapult"
 	},
+	"YangsThoughts": "The Bowman B1M is a refit of the Catapult C1 with mid range Warhammer missiles and ferro-fibrous armor. This has given it incredibly punch at mid range at the expense of it's safe fire support role. While potent, many pilots have complained that the Warhammer misses are somewhat unwieldy.",
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",
 	"PathingCapDefID": "pathingdef_heavy",
 	"HardpointDataDefID": "hardpointdatadef_catapult",
@@ -46,6 +49,14 @@
 	"DFAToHitModifier": 0,
 	"DFASelfDamage": 65,
 	"DFAInstability": 30,
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"HeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
 	"Locations": [
 		{
 			"Location": "Head",
@@ -201,17 +212,6 @@
 			"z": 0
 		}
 	],
-	"VariantName": "CPLT-B1M",
-	"ChassisTags": {
-		"items": [
-			"ArmLimitUpperRight",
-			"ArmLimitUpperLeft",
-			"HeavyMech"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "Heavy Fire Support",
-	"YangsThoughts": "The Bowman B1M is a refit of the Catapult C1 with mid range Warhammer missiles and ferro-fibrous armor. This has given it incredibly punch at mid range at the expense of it's safe fire support role. While potent, many pilots have complained that the Warhammer misses are somewhat unwieldy.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

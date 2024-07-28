@@ -167,6 +167,9 @@
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_owens_OW-HAK.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_summoner_SMN-2-PRIME.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_summoner_SMN-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>

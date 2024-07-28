@@ -1,4 +1,6 @@
 {
+	"VariantName": "AS7-P-WH",
+	"StockRole": "Juggernaut & Ranged Assault",
 	"Description": {
 		"Cost": 13100000,
 		"Rarity": 5,
@@ -11,6 +13,7 @@
 		"Details": "The Promethous is an experemental platform built around newly developed Warhammer Missiles. Featuring two Warhammer Missile Launchers and a pair of Light Gauss Rifles the Promethous has proven to be a very dangerous direct fire support platform. With an additional four medium lasers for cloer range targets the Prometheous has proven moderatly succsessful, though the XL Engine and large Warhammer ammo supply has made it a fair bit less durable than the original Atlas design.",
 		"Icon": "uixTxrIcon_atlas"
 	},
+	"YangsThoughts": "The Promethous is an experemental platform built around newly developed Warhammer Missiles. Featuring two Warhammer Missile Launchers and a pair of Light Gauss Rifles the Promethous has proven to be a very dangerous direct fire support platform. With an additional four medium lasers for cloer range targets the Prometheous has proven moderatly succsessful, though the XL Engine and large Warhammer ammo supply has made it a fair bit less durable than the original Atlas design.",
 	"MovementCapDefID": "movedef_atlas_AS7-D",
 	"PathingCapDefID": "pathingdef_assault",
 	"HardpointDataDefID": "hardpointdatadef_atlas",
@@ -46,6 +49,12 @@
 	"DFAToHitModifier": 0,
 	"DFASelfDamage": 110,
 	"DFAInstability": 55,
+	"ChassisTags": {
+		"items": [
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
 	"Locations": [
 		{
 			"Location": "Head",
@@ -249,15 +258,6 @@
 			"hasPrefabName": false
 		}
 	],
-	"VariantName": "AS7-P-WH",
-	"ChassisTags": {
-		"items": [
-			"AssaultMech"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "Juggernaut & Ranged Assault",
-	"YangsThoughts": "The Promethous is an experemental platform built around newly developed Warhammer Missiles. Featuring two Warhammer Missile Launchers and a pair of Light Gauss Rifles the Promethous has proven to be a very dangerous direct fire support platform. With an additional four medium lasers for cloer range targets the Prometheous has proven moderatly succsessful, though the XL Engine and large Warhammer ammo supply has made it a fair bit less durable than the original Atlas design.",
 	"CustomParts": {
 		"CustomParts": []
 	}
