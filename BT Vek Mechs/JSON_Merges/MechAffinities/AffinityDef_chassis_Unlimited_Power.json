@@ -3,8 +3,10 @@
   "Instructions": [
     {
       "JSONPath": "$.affinityData.chassisNames",
-      "Action": "ArrayAdd",
-      "Value": "GrandSummoner-001_70"
+      "Action": "ArrayConcat",
+      "Value": [
+        "GrandSummoner-001_70"
+      ]
     }
   ]
 }

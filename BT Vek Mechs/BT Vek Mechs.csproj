@@ -179,6 +179,27 @@
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-F.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-A.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-B.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-C.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-D.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-E.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-Prime.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_kitfox_KFX-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
@@ -224,6 +245,27 @@
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-F.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-A.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-B.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-C.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-D.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-E.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-Prime.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_kitfox_KFX-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
@@ -237,6 +279,12 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_uziel_UZL-BEL.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Quirks\Upgrades\Gear_Quirk_Small_Cockpit_Hel.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Merges\MechAffinities\AffinityDef_chassis_Ice_Cold.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Merges\MechAffinities\AffinityDef_chassis_Unlimited_Power.json">
