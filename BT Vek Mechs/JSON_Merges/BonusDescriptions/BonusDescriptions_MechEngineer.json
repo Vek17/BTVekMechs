@@ -1,0 +1,17 @@
+{
+	"TargetID": "BonusDescriptions_MechEngineer",
+	"Instructions": [
+		{
+			"JSONPath": "Settings",
+			"Action": "ArrayConcat",
+			"Value": [
+				{
+					"Bonus": "PLACEHOLDER_DO_NOT_USE",
+					"Short": "Shredder Ammo",
+					"Long": "Shredder Ammo",
+					"Full": "Shredder Ammo - {0} Shots"
+				}
+			]
+		}
+	]
+}

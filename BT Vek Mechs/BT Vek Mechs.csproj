@@ -197,7 +197,13 @@
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-E.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-Prime.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-R.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-T.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_kitfox_KFX-WH.json">
@@ -263,7 +269,13 @@
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-E.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-Prime.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-R.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-T.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_kitfox_KFX-WH.json">
@@ -281,7 +293,7 @@
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_uziel_UZL-BEL.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Quirks\Upgrades\Gear_Quirk_Small_Cockpit_Hel.json">
+	  <None Update="JSON_Data\Gear\Internals\Gear_Cockpit_Generic_Compact.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Merges\MechAffinities\AffinityDef_chassis_Ice_Cold.json">

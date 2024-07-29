@@ -1,0 +1,12 @@
+{
+  "TargetID": "AffinityDef_chassis_Ice_Cold",
+  "Instructions": [
+    {
+      "JSONPath": "$.affinityData.chassisNames",
+      "Action": "ArrayConcat",
+      "Value": [
+        "Hel-001_65"
+      ]
+    }
+  ]
+}

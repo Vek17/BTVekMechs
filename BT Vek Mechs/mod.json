@@ -34,7 +34,7 @@
 		},
 		{
 			"Type": "UpgradeDef",
-			"Path": "JSON_Data\\Quirks\\Upgrades",
+			"Path": "JSON_Data\\Gear\\Internals",
 			"AddToDB": true
 		},
 		{
