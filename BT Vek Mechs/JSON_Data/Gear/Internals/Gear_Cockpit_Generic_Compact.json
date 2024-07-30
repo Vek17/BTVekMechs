@@ -3,7 +3,7 @@
     "BonusDescriptions": [
       "FreedSlots: 1",
       "Defense: -1",
-      "StabThreshhold: -15"
+      "StabThreshhold: -10"
     ],
     "Category": [
       {
@@ -85,7 +85,7 @@
       "statisticData": {
         "statName": "UnsteadyThreshold",
         "operation": "Float_Subtract",
-        "modValue": "15.0",
+        "modValue": "10.0",
         "modType": "System.Single"
       },
       "nature": "Debuff"

@@ -77,14 +77,14 @@
 		"id": "TriggerAfterActivation_EnableAoECrit_HAMMERSTICK",
 		"rounds": 2,
 		"text": "Warhammer",
-		"VFX": "WFX_BELarger",
+		"VFX": "WFX_BESmaller",
 		"waitVFX": "vfxPrfPrtl_narcMarker_loop",
 		"SFX": "AudioEventList_explosion_explosion_medium",
 		"VFXtime": 10,
 		"VFXScale": {
-			"x": 2,
-			"y": 2,
-			"z": 2
+			"x": 4,
+			"y": 4,
+			"z": 4
 		},
 		"damageApplyTime": 1,
 		"AOERange": 40,
