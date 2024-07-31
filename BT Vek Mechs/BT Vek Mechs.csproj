@@ -161,6 +161,9 @@
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_chimera_CMA-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-V.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-E.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
@@ -195,6 +198,9 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-E.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-V.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-R.json">
@@ -233,6 +239,9 @@
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_chimera_CMA-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-V.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-E.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
@@ -267,6 +276,9 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-E.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-V.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-R.json">
