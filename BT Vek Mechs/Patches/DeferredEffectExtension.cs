@@ -39,7 +39,7 @@ static class DeferredEffectExtension {
         [HarmonyPostfix]
         static void Postfix(ref DeferredEffect __instance, Weapon weapon, DeferredEffectDef def, int currentRound, ICombatant ancor) {
             int roundsText = 1;
-            if (ancor is Building) {
+            if (ancor.UnitType == UnitType.Building) {
                 __instance.offset = __instance.ancor.position;
                 __instance.ancor = null;
             }
