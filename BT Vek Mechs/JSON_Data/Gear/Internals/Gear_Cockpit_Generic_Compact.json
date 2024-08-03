@@ -3,7 +3,7 @@
     "BonusDescriptions": [
       "FreedSlots: 1",
       "Defense: -1",
-      "StabThreshhold: -10"
+      "StabThreshhold: -15"
     ],
     "Category": [
       {
@@ -79,7 +79,7 @@
       "Description": {
         "Id": "CompactCockpit_Unsteady",
         "Name": "Unsteady Mech",
-        "Details": "UNSTEADY threshold reduced by 10",
+        "Details": "UNSTEADY threshold reduced by 15",
         "Icon": "uixSvgIcon_action_evasivemove"
       },
       "statisticData": {

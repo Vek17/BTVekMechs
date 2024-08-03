@@ -149,6 +149,12 @@
 	  <None Update="JSON_Data\Attachments\Gear_Attachment_WarhammerFCS.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Data\Gear\Upgrades\emod_mech_partialwing_linked.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Gear\Upgrades\Gear_Mech_PartialWing_Heavy_CLAN.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_atlas_AS7-P-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
@@ -219,6 +225,18 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-PRIME.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatii_SHC-II-2.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatii_SHC-II-4.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatii_SHC-II-3.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatii_SHC-II-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_summoner_SMN-WH.json">
@@ -299,6 +317,18 @@
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatii_SHC-II-2.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatii_SHC-II-4.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatii_SHC-II-3.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatii_SHC-II-PRIME.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_summoner_SMN-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
@@ -306,6 +336,9 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Gear\Internals\Gear_Cockpit_Generic_Compact.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Merges\MechAffinities\AffinityDef_chassis_Nimble.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Merges\MechAffinities\AffinityDef_chassis_Ice_Cold.json">
@@ -336,6 +369,9 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Weapons\Weapon_Warhammer_Missile-STOCK.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Portraits\Mechs\uixTxrIcon_shadowcatii.dds">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	</ItemGroup>
