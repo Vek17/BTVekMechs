@@ -1,0 +1,128 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "PartialWing"
+      }
+    ],
+    "BonusDescriptions": [
+      "HeatPerTurn: -6",
+      "JumpDistance: +25%"
+    ],
+    "Weights": {
+      "StructureFactor": 1.5
+    },
+    "Flags": [
+      "not_broken",
+      "no_salvage"
+    ],
+    "Linked": {
+      "Links": [
+        {
+          "ComponentDefId": "emod_mech_partialwing_linked",
+          "Location": "LeftTorso",
+          "ComponentDefType": "Upgrade"
+        }
+      ]
+    },
+    "TonnageLimit": {
+      "Min": 60,
+      "Max": 75
+    }
+  },
+  "Description": {
+    "Cost": 350000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "Clan Jade Falcon",
+    "Model": "Swooping Hawk",
+    "UIName": "Partial Wing (Heavy)",
+    "Id": "Gear_Mech_PartialWing_Heavy_CLAN",
+    "Name": "Partial Wing (Heavy)",
+    "Details": "First designed by Clan Jade Falcon in 3061 and entering production in 3067, the partial wing system offers increased jump capability comparable to the improved jump jet system, but also increases the rate of heat dissipation. Not to be confused with the Land-Air Mech concept, the partial wing is a fixed-wing system that allows a Mech to glide an additional distance normal jump jets. In addition, its large surface area allows a 'Mech to more efficiently radiate excess heat. ",
+    "Icon": "steelwing-emblem"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 0,
+  "AllowedLocations": "RightTorso",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": 1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-MechWing-Cooling",
+        "Name": "BattleMech Wing System",
+        "Details": "The BattleMech Wing System's large surface area efficiently radiates excess heat while also boosting jump distance by 20%.",
+        "Icon": "steelwing-emblem"
+      },
+      "statisticData": {
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Add",
+        "modValue": "6",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-MechWing-JumpDistance",
+        "Name": "JUMP DISTANCE INCREASED",
+        "Details": "The BattleMech Wing System increases Jump Jet jump distance by 25%",
+        "Icon": "steelwing-emblem"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "JumpDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.25",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "ProtoIncompatible"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

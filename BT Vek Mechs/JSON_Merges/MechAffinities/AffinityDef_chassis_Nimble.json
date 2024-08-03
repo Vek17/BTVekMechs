@@ -1,0 +1,12 @@
+{
+  "TargetID": "AffinityDef_chassis_Nimble",
+  "Instructions": [
+    {
+      "JSONPath": "$.affinityData.chassisNames",
+      "Action": "ArrayConcat",
+      "Value": [
+        "ShadowCatII-001_60"
+      ]
+    }
+  ]
+}
