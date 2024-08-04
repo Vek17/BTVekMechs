@@ -10,10 +10,10 @@
 		"UIName": "Shadow Cat II",
 		"Id": "chassisdef_shadowcatii_SHC-II-4",
 		"Name": "Shadow Cat II",
-		"Details": "Based on the lighter Shadow Cat OmniMech, the Shadow Cat II is a heavy Clan Jade Falcon fire-support BattleMech. Built using the same expensive weight saving technology as its lighter parent, the Shadow Cat II is able to match the performance of the Shadow Cat without any significant loss of firepower, but only a half-ton increase of armor over the 45 ton design.",
+		"Details": "Based on the lighter Shadow Cat OmniMech, the Shadow Cat II is a heavy Clan Jade Falcon fire-support BattleMech. Built using the same expensive weight saving technology as its lighter parent, the Shadow Cat II is able to match the performance of the Shadow Cat without any significant loss of firepower, but only a half-ton increase of armor over the 45 ton design.\nThe Shadow Cat II 4 configuration introduced in 3092 carries two LRM-10 launchers and a Gauss rifle. It removes a single jump jet, which means it can only cover 150 meters per jump.",
 		"Icon": "uixTxrIcon_shadowcatii"
 	},
-	"YangsThoughts": "Based on the lighter Shadow Cat OmniMech, the Shadow Cat II is a heavy Clan Jade Falcon fire-support BattleMech. Built using the same expensive weight saving technology as its lighter parent, the Shadow Cat II is able to match the performance of the Shadow Cat without any significant loss of firepower, but only a half-ton increase of armor over the 45 ton design.",
+	"YangsThoughts": "Based on the lighter Shadow Cat OmniMech, the Shadow Cat II is a heavy Clan Jade Falcon fire-support BattleMech. Built using the same expensive weight saving technology as its lighter parent, the Shadow Cat II is able to match the performance of the Shadow Cat without any significant loss of firepower, but only a half-ton increase of armor over the 45 ton design.\nThe Shadow Cat II 4 configuration introduced in 3092 carries two LRM-10 launchers and a Gauss rifle. It removes a single jump jet, which means it can only cover 150 meters per jump.",
 	"Custom": {
 		"AssemblyVariant": {
 			"PrefabID": "ShadowCatII-001",
