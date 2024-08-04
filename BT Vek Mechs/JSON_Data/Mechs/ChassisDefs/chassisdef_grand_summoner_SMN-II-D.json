@@ -11,7 +11,7 @@
 		"Id": "chassisdef_grand_summoner_SMN-II-D",
 		"Name": "Grand Summoner",
 		"Details": "The Grand Summoner is an upgraded Summoner mech produced by Clan Jade Falcon during the early years of the thirty-second century. Built on an Endo Steel structure, and without its predecessor's permanently mounted jump jets, it boasts 30.5 tons of pod capacity over the original's 22.5.\nThe D Configuration's firepower comes from its side-torso-mounted LRM15, and an ER Large Laser and ER Medium Laser on each arm. All of the D's weapons are tied to targeting computers. The D also mounts jump jets.",
-		"Icon": "uixTxrIcon_summoner"
+		"Icon": "uixTxrIcon_grandsummoner"
 	},
 	"YangsThoughts": "The Grand Summoner is an upgraded Summoner mech produced by Clan Jade Falcon during the early years of the thirty-second century. Built on an Endo Steel structure, and without its predecessor's permanently mounted jump jets, it boasts 30.5 tons of pod capacity over the original's 22.5.\nThe D Configuration's firepower comes from its side-torso-mounted LRM15, and an ER Large Laser and ER Medium Laser on each arm. All of the D's weapons are tied to targeting computers. The D also mounts jump jets.",
 	"Custom": {

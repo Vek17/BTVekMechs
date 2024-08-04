@@ -43,6 +43,11 @@
 			"AddToDB": true
 		},
 		{
+			"Type": "UpgradeDef",
+			"Path": "JSON_Data\\Gear\\Armor",
+			"AddToDB": true
+		},
+		{
 			"Type": "AmmunitionDef",
 			"Path": "JSON_Data\\Ammunition\\AmmunitionDefs",
 			"AddToDB": true

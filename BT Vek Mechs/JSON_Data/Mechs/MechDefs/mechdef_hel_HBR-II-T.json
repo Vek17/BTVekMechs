@@ -11,7 +11,7 @@
 		"Id": "mechdef_hel_HBR-II-T",
 		"Name": "Hel",
 		"Details": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nReworking the Prime configuration, the T carries an ultra AC/10 and heavy medium laser in each arm, giving it devastating direct fire potential. To maximise this, the T is fitted with a targeting computer, while a supercharger allows the pilot to get into position faster. An SRM-4 in the right torso can be used to stab at exposed components.",
-		"Icon": "uixTxrIcon_hellbringer"
+		"Icon": "uixTxrIcon_lokiii"
 	},
 	"simGameMechPartCost": 7890000,
 	"Version": 1,

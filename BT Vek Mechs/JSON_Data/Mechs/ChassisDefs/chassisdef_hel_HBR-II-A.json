@@ -11,7 +11,7 @@
 		"Id": "chassisdef_hel_HBR-II-A",
 		"Name": "Hel",
 		"Details": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nDesigned to handle armored infantry and combat vehicles, the A Configuration comes with a balance of energy and ballistic weaponry. Each arms is equiped with an ER PPC and medium pulse laser. In the right torso houses two heavy medium lasers and a pair of AP Gauss rifles. The left side torso houses a single LBX-10. An Angel ECM is mounted in the right torso for added protection.",
-		"Icon": "uixTxrIcon_hellbringer"
+		"Icon": "uixTxrIcon_lokiii"
 	},
 	"YangsThoughts": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nDesigned to handle armored infantry and combat vehicles, the A Configuration comes with a balance of energy and ballistic weaponry. Each arms is equiped with an ER PPC and medium pulse laser. In the right torso houses two heavy medium lasers and a pair of AP Gauss rifles. The left side torso houses a single LBX-10. An Angel ECM is mounted in the right torso for added protection.",
 	"Custom": {

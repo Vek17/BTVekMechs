@@ -11,7 +11,7 @@
 		"Id": "mechdef_grand_summoner_SMN-II-PRIME",
 		"Name": "Grand Summoner",
 		"Details": "The Grand Summoner is an upgraded Summoner mech produced by Clan Jade Falcon during the early years of the thirty-second century. Built on an Endo Steel structure, and without its predecessor's permanently mounted jump jets, it boasts 30.5 tons of pod capacity over the original's 22.5.\nThe Prime Configuration's long-range firepower comes from its side-torso-mounted LRM15 and pair of arm-mounted UAC5s. In intermediate and close ranges, the Prime's four ER Medium Lasers can be brought to bear on a target with minimal overheating concerns. The Prime also mounts jump jets.",
-		"Icon": "uixTxrIcon_summoner"
+		"Icon": "uixTxrIcon_grandsummoner"
 	},
 	"simGameMechPartCost": 2262374,
 	"Version": 1,

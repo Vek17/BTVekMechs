@@ -11,7 +11,7 @@
 		"Id": "mechdef_hel_HBR-II-PRIME",
 		"Name": "Hel",
 		"Details": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nThe Prime Configuration is geared towards long-range combat. The Mech's arms are fitted with a pair of Gauss rifles and ER Large Lasers. In closer ranges a right torso mounted Streak SRM4 exists to add additional firepower where the Gauss rifles become difficult to aim.",
-		"Icon": "uixTxrIcon_hellbringer"
+		"Icon": "uixTxrIcon_lokiii"
 	},
 	"simGameMechPartCost": 7890000,
 	"Version": 1,

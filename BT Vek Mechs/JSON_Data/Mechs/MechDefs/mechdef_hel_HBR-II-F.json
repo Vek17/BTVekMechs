@@ -11,7 +11,7 @@
 		"Id": "mechdef_hel_HBR-II-F",
 		"Name": "Hel",
 		"Details": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nMimicking the 30 ton heavier Hellstar, the F configuration is armed with four ER PPCs for powerful, long range sniping. The remaining pod space is dedicated to cooling, with an additional 10 double heat sinks and six coolant pods to maximise the weapons' fire rate.",
-		"Icon": "uixTxrIcon_hellbringer"
+		"Icon": "uixTxrIcon_lokiii"
 	},
 	"simGameMechPartCost": 7890000,
 	"Version": 1,

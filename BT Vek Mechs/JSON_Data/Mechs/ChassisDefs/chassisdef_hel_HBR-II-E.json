@@ -11,7 +11,7 @@
 		"Id": "chassisdef_hel_HBR-II-E",
 		"Name": "Hel",
 		"Details": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nThe E configuration's primary weapons are a pair of ER large lasers, backed up by a rotary AC/5. At close range three ER medium lasers and a pair of streak SRM-6 launchers can be brought to bear. The pilot's accuracy is further boosted by the inclusion of fire control computers.",
-		"Icon": "uixTxrIcon_hellbringer"
+		"Icon": "uixTxrIcon_lokiii"
 	},
 	"YangsThoughts": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nThe E configuration's primary weapons are a pair of ER large lasers, backed up by a rotary AC/5. At close range three ER medium lasers and a pair of streak SRM-6 launchers can be brought to bear. The pilot's accuracy is further boosted by the inclusion of fire control computers.",
 	"Custom": {

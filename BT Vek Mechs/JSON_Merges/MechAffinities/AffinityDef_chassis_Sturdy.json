@@ -1,0 +1,12 @@
+{
+  "TargetID": "AffinityDef_chassis_Sturdy",
+  "Instructions": [
+    {
+      "JSONPath": "$.affinityData.chassisNames",
+      "Action": "ArrayConcat",
+      "Value": [
+        "MadDogMkIV-001_60"
+      ]
+    }
+  ]
+}

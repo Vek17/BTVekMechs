@@ -11,7 +11,7 @@
 		"Id": "chassisdef_hel_HBR-II-R",
 		"Name": "Hel",
 		"Details": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nThe R Configuration is a skirmisher. For close range the Mech's arms have a pair of Large Pulse Lasers and ER Small Lasers and there are an additional two ER Medium Lasers mounted on the head. For longer ranged damage there is an LRM 15 in each side torso. A set of jump jets improves the mobility.",
-		"Icon": "uixTxrIcon_hellbringer"
+		"Icon": "uixTxrIcon_lokiii"
 	},
 	"YangsThoughts": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nThe R Configuration is a skirmisher. For close range the Mech's arms have a pair of Large Pulse Lasers and ER Small Lasers and there are an additional two ER Medium Lasers mounted on the head. For longer ranged damage there is an LRM 15 in each side torso. A set of jump jets improves the mobility.",
 	"Custom": {

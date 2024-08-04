@@ -11,7 +11,7 @@
 		"Id": "mechdef_hel_HBR-II-B",
 		"Name": "Hel",
 		"Details": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nGeared for a fire support role, the B's heavy firepower focused in its Long Tom cannon and ER Large Laser, while four medium pulse lasers round out the Mech's defensive weaponry. The cannon's three tons of ammunition is found in the right torso with one of the Mech's three additional heat sinks.",
-		"Icon": "uixTxrIcon_hellbringer"
+		"Icon": "uixTxrIcon_lokiii"
 	},
 	"simGameMechPartCost": 7890000,
 	"Version": 1,

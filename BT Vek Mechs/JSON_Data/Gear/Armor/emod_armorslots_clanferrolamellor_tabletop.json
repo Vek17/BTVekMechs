@@ -1,0 +1,132 @@
+{
+	"Custom": {
+		"Color": "Gold",
+		"DynamicSlots": {
+			"ReservedSlots": 12,
+			"BackgroundColor": "GoldHalf",
+			"ShowIcon": true,
+			"NameText": "Ferro-Lamellor",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "2 * [[Chassis.Tonnage]] / 15",
+				"CBillCost": "5000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 30"
+			}
+		},
+		"CASE": {
+			"AllLocations": true
+		},
+		"Category": [
+			{
+				"CategoryID": "Armor"
+			},
+			{
+				"CategoryID": "ClanArmor"
+			}
+		],
+		"Weights": {
+			"ArmorFactor": "1.1435714"
+		},
+		"Flags": [
+			"autorepair",
+			"ignore_damage",
+			"not_broken",
+			"no_salvage"
+		],
+		"ArmorRepair": {
+			"ArmorTPCost": 1.8,
+			"ArmorCBCost": 1.9
+		},
+		"BonusDescriptions": [
+				"DamageTaken: -20%",
+				"ArmorFactor: +14%",
+				"Reserved: 12",
+				"CASE"
+			]
+	},
+	"Description": {
+		"Cost": 1400000,
+		"Rarity": 10,
+		"Purchasable": true,
+		"Manufacturer": "Clan",
+		"Model": "Armor Critical Slot",
+		"UIName": "Ferro-Lamellor",
+		"Id": "emod_armorslots_clanferrolamellor_tabletop",
+		"Name": "Ferro-Lamellor Armor",
+		"Details": "Created by the scientist caste of Clan Snow Raven, Ferro-Lamellor armor is based on the Ferro-Carbide armor used in the Raven's WarShips. Scaled down for use on 'Mechs, AeroSpace Fighters, and tanks, the experimental Ferro-Lamellor armor offers improved protection, beyond even that of the Ferro-Fibrous armor. Though weighing 14% more compared to standard armor, Ferro-Lamellor has a unique property, it reduces the damage of weapon strikes by 20%. In addition, the armor will reinforce the structure of the unit mounting it, making it impervious to the armor piercing effects of Armor-Piercing autocannon ammunition and Tandem-Charge Warheads.\n<b><color=#00ff00>CASE Enabled</color></b>",
+		"Icon": "uixSvgIcon_action_end"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-CFL",
+				"Name": "REDUCED DAMAGE TAKEN",
+				"Details": "All incoming damage reduced by 20%.",
+				"Icon": "uixSvgIcon_action_end"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "DamageReductionMultiplierAll",
+				"operation": "Float_Multiply",
+				"modValue": "0.8",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "HardenedCritImmune",
+				"Name": "ARMOR PIERCE IMMUNE",
+				"Details": "Impervious to the armor piercing effects of Armor-Piercing autocannon ammunition and Tandem-Charge Warheads",
+				"Icon": "uixSvgIcon_run_n_gun"
+			},
+			"statisticData": {
+				"statName": "CACAPProtection",
+				"operation": "Set",
+				"modValue": "true",
+				"modType": "System.Boolean"
+			},
+			"nature": "Buff"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"ClanArmor"
+		],
+		"tagSetSourceFile": ""
+	}
+}

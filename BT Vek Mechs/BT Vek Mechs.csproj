@@ -149,6 +149,9 @@
 	  <None Update="JSON_Data\Attachments\Gear_Attachment_WarhammerFCS.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Data\Gear\Armor\emod_armorslots_clanferrolamellor_tabletop.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Data\Gear\Upgrades\emod_mech_partialwing_linked.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
@@ -219,6 +222,36 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_kitfox_KFX-WH.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiii_MDD-III-D.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiii_MDD-III-C.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiii_MDD-III-A.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiii_MDD-III-B.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiv_MDD-IV-A.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiv_MDD-IV-B.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiv_MDD-IV-C.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiv_MDD-IV-D.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiv_MDD-IV-PRIME.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiii_MDD-III-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_owens_OW-HAK.json">
@@ -323,6 +356,36 @@
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_kitfox_KFX-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiii_MDD-III-D.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiii_MDD-III-C.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiii_MDD-III-A.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiii_MDD-III-B.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiv_MDD-IV-A.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiv_MDD-IV-B.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiv_MDD-IV-C.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiv_MDD-IV-D.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiv_MDD-IV-PRIME.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiii_MDD-III-PRIME.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_owens_OW-HAK.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
@@ -362,6 +425,12 @@
 	  <None Update="JSON_Data\Gear\Internals\Gear_Cockpit_Generic_Compact.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Merges\MechAffinities\AffinityDef_chassis_Cool-Running.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Merges\MechAffinities\AffinityDef_chassis_Sturdy.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Merges\MechAffinities\AffinityDef_chassis_Nimble.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
@@ -393,6 +462,18 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Weapons\Weapon_Warhammer_Missile-STOCK.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Portraits\Mechs\uixTxrIcon_grandsummoner.dds">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Portraits\Mechs\uixTxrIcon_lokiii.dds">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Portraits\Mechs\uixTxrIcon_maddogiii.dds">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Portraits\Mechs\uixTxrIcon_maddogiv.dds">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="Portraits\Mechs\uixTxrIcon_shadowcatii.dds">

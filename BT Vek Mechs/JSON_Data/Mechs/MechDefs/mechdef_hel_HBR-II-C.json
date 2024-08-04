@@ -11,7 +11,7 @@
 		"Id": "mechdef_hel_HBR-II-C",
 		"Name": "Hel",
 		"Details": "The Hel is an upgraded version of the venerable Hellbringer. Hel is noted for having 40 tons of pod space. This improvement was achieved through reducing the size of the Mech's engine to a 260-rated XL fusion engine, installing a Compact Cockpit, an Endo Steel structure, and ferro-fibrous armor.\nA dedicated missile boat, the C configuration's only armament is four ATM 12 missile launchers. While they are fed by a bountiful ten tons of ammunition, once exhausted the pilot will be left defenceless, as the C lacks any backup weapons.",
-		"Icon": "uixTxrIcon_hellbringer"
+		"Icon": "uixTxrIcon_lokiii"
 	},
 	"simGameMechPartCost": 7890000,
 	"Version": 1,
