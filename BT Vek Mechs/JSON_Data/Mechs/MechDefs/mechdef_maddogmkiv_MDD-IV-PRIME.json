@@ -10,7 +10,7 @@
 		"UIName": "Mad Dog MDD-IV-PRIME",
 		"Id": "mechdef_maddogmkiv_MDD-IV-PRIME",
 		"Name": "Mad Dog Mk IV",
-		"Details": "The Mad Dog is a heavy Clan OmniMech used for long-range indirect fire support.  With its ample firepower and decent speed of 86.4 km/h, it makes a highly mobile firing platform, and as such has spread to near ubiquity among the forces deployed by the Clans. For its fire support purposes, the Mad Dog is armed with twin shoulder-mounted LRM-20 missile racks, which allow the 'Mech to inflict heavy damage on any opponent it may target, though limited ammo is a concern. The Mad Dog is also more than capable of going on the offensive, mounting dual large and medium-sized pulse lasers, one on each arm.",
+		"Details": "Mad Dog Mk IV OmniMech is largely unchanged from the original in basic design terms. Intended to take and hold the high ground, the Mad Dog Mk IV lacks jump jets but has surprised many with its agility. Every variant also incorporates at least one energy weapon to reduce the risk of pilots finding themselves defenseless once their ammunition is expended. The Mad Dog Mk IV also mounts fourteen and a half tons of advanced ferro-lamellor armor for physical protection.\nThe primary configuration of the Mad Dog Mk IV mounts three energy weapons - an Extended Range Particle Projection Cannon in the right arm and a pair of Extended Range Small Pulse Lasers in the center torso. A pair of SRM-6s are mounted in each side torso along with a ton of ammunition. A single LB 5-X Autocannon in the left arm rounds out the weapons load.",
 		"Icon": "uixTxrIcon_maddogiv"
 	},
 	"simGameMechPartCost": 1210000,
