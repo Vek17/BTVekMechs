@@ -10,7 +10,7 @@
       "JumpDistance: +25%"
     ],
     "Weights": {
-      "StructureFactor": 1.5
+      "ComponentByChassisFactor": 0.05
     },
     "Flags": [
       "not_broken",

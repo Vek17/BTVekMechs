@@ -5,7 +5,8 @@
       "JSONPath": "$.affinityData.chassisNames",
       "Action": "ArrayConcat",
       "Value": [
-        "Hel-001_65"
+        "Hel-001_65",
+        "ShadowCatIII-001_45"
       ]
     }
   ]
