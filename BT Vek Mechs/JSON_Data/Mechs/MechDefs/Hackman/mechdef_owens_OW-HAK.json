@@ -11,7 +11,7 @@
 		"Id": "mechdef_owens_OW-HAK",
 		"Name": "Hackman",
 		"Details": "The Hackman is a heavy modification of the Owens mech, focused on long ranged harassment rather than scounting and spotting. Equiped with a stealth system and hard fitted ECM, it is designed to opperate at long range while being difficult to engage. The weaponry on the Hackman is the focus of the mech, carrying a full sized Gauss Rifle and an SRM6.",
-		"Icon": "uixTxrIcon_owens"
+		"Icon": "uixTxrIcon_hackman"
 	},
 	"simGameMechPartCost": 750000,
 	"Version": 1,
