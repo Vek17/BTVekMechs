@@ -236,7 +236,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
+			"ComponentDefID": "Weapon_Laser_ImprovedHeavyLargeLaser_CLAN",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,

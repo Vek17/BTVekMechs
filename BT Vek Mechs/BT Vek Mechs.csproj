@@ -425,6 +425,15 @@
 	  <None Update="JSON_Data\Gear\Internals\Gear_Cockpit_Generic_Compact.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Update="JSON_Data\Weapons\Weapon_Laser_ImprovedHeavyLargeLaser_CLAN.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Weapons\Weapon_Laser_ImprovedHeavyMediumLaser_CLAN.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="JSON_Data\Weapons\Weapon_Laser_ImprovedHeavySmallLaser_CLAN.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	  <None Update="JSON_Merges\MechAffinities\AffinityDef_chassis_Cool-Running.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>

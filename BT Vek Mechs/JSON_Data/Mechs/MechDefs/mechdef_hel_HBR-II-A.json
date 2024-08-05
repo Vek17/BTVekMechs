@@ -163,7 +163,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_HeavyMediumLaser_CLAN",
+			"ComponentDefID": "Weapon_Laser_ImprovedHeavyMediumLaser_CLAN",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -174,7 +174,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_HeavyMediumLaser_CLAN",
+			"ComponentDefID": "Weapon_Laser_ImprovedHeavyMediumLaser_CLAN",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
