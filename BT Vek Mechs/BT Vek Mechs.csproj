@@ -158,268 +158,268 @@
 	  <None Update="JSON_Data\Gear\Upgrades\Gear_Mech_PartialWing_Heavy_CLAN.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_atlas_AS7-P-WH.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Atlas\chassisdef_atlas_AS7-P-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_catapult_CPLT-B1M.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Catapult\chassisdef_catapult_CPLT-B1M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_catapult_CPLT-B2M.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Catapult\chassisdef_catapult_CPLT-B2M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_chimera_CMA-WH.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Chimera\chassisdef_chimera_CMA-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-V.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\GrandSummoner\chassisdef_grand_summoner_SMN-II-V.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-E.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\GrandSummoner\chassisdef_grand_summoner_SMN-II-E.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-D.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\GrandSummoner\chassisdef_grand_summoner_SMN-II-D.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-C.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\GrandSummoner\chassisdef_grand_summoner_SMN-II-C.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-B.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\GrandSummoner\chassisdef_grand_summoner_SMN-II-B.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-A.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\GrandSummoner\chassisdef_grand_summoner_SMN-II-A.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-WH.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\GrandSummoner\chassisdef_grand_summoner_SMN-II-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-F.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hel\chassisdef_hel_HBR-II-F.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-A.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hel\chassisdef_hel_HBR-II-A.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-B.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hel\chassisdef_hel_HBR-II-B.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-C.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hel\chassisdef_hel_HBR-II-C.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-D.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hel\chassisdef_hel_HBR-II-D.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-E.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hel\chassisdef_hel_HBR-II-E.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-V.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hel\chassisdef_hel_HBR-II-V.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-R.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hel\chassisdef_hel_HBR-II-R.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-T.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hel\chassisdef_hel_HBR-II-T.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_hel_HBR-II-PRIME.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hel\chassisdef_hel_HBR-II-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_kitfox_KFX-WH.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\KitFox\chassisdef_kitfox_KFX-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiii_MDD-III-D.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\MadDogIII\chassisdef_maddogmkiii_MDD-III-D.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiii_MDD-III-C.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\MadDogIII\chassisdef_maddogmkiii_MDD-III-C.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiii_MDD-III-A.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\MadDogIII\chassisdef_maddogmkiii_MDD-III-A.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiii_MDD-III-B.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\MadDogIII\chassisdef_maddogmkiii_MDD-III-B.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiv_MDD-IV-A.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\MadDogIV\chassisdef_maddogmkiv_MDD-IV-A.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiv_MDD-IV-B.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\MadDogIV\chassisdef_maddogmkiv_MDD-IV-B.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiv_MDD-IV-C.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\MadDogIV\chassisdef_maddogmkiv_MDD-IV-C.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiv_MDD-IV-D.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\MadDogIV\chassisdef_maddogmkiv_MDD-IV-D.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiv_MDD-IV-PRIME.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\MadDogIV\chassisdef_maddogmkiv_MDD-IV-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_maddogmkiii_MDD-III-PRIME.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\MadDogIII\chassisdef_maddogmkiii_MDD-III-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_owens_OW-HAK.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Hackman\chassisdef_owens_OW-HAK.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_grand_summoner_SMN-II-PRIME.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\GrandSummoner\chassisdef_grand_summoner_SMN-II-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatiii_SHC-III-A.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatIII\chassisdef_shadowcatiii_SHC-III-A.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatiii_SHC-III-B.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatIII\chassisdef_shadowcatiii_SHC-III-B.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatiii_SHC-III-C.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatIII\chassisdef_shadowcatiii_SHC-III-C.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatiii_SHC-III-PRIME.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatIII\chassisdef_shadowcatiii_SHC-III-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatii_SHC-II-2.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatII\chassisdef_shadowcatii_SHC-II-2.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatii_SHC-II-4.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatII\chassisdef_shadowcatii_SHC-II-4.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatii_SHC-II-3.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatII\chassisdef_shadowcatii_SHC-II-3.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_shadowcatii_SHC-II-PRIME.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatII\chassisdef_shadowcatii_SHC-II-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_summoner_SMN-WH.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Summoner\chassisdef_summoner_SMN-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\chassisdef_uziel_UZL-BEL.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\Uziel\chassisdef_uziel_UZL-BEL.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_atlas_AS7-P-WH.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Atlas\mechdef_atlas_AS7-P-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_catapult_CPLT-B1M.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Catapult\mechdef_catapult_CPLT-B1M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_catapult_CPLT-B2M.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Catapult\mechdef_catapult_CPLT-B2M.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_chimera_CMA-WH.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Chimera\mechdef_chimera_CMA-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-V.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\GrandSummoner\mechdef_grand_summoner_SMN-II-V.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-E.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\GrandSummoner\mechdef_grand_summoner_SMN-II-E.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-D.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\GrandSummoner\mechdef_grand_summoner_SMN-II-D.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-C.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\GrandSummoner\mechdef_grand_summoner_SMN-II-C.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-B.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\GrandSummoner\mechdef_grand_summoner_SMN-II-B.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-A.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\GrandSummoner\mechdef_grand_summoner_SMN-II-A.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-WH.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\GrandSummoner\mechdef_grand_summoner_SMN-II-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-F.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hel\mechdef_hel_HBR-II-F.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-A.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hel\mechdef_hel_HBR-II-A.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-B.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hel\mechdef_hel_HBR-II-B.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-C.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hel\mechdef_hel_HBR-II-C.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-D.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hel\mechdef_hel_HBR-II-D.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-E.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hel\mechdef_hel_HBR-II-E.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-V.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hel\mechdef_hel_HBR-II-V.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-R.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hel\mechdef_hel_HBR-II-R.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-T.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hel\mechdef_hel_HBR-II-T.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_hel_HBR-II-PRIME.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hel\mechdef_hel_HBR-II-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_kitfox_KFX-WH.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\KitFox\mechdef_kitfox_KFX-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiii_MDD-III-D.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\MadDogIII\mechdef_maddogmkiii_MDD-III-D.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiii_MDD-III-C.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\MadDogIII\mechdef_maddogmkiii_MDD-III-C.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiii_MDD-III-A.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\MadDogIII\mechdef_maddogmkiii_MDD-III-A.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiii_MDD-III-B.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\MadDogIII\mechdef_maddogmkiii_MDD-III-B.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiv_MDD-IV-A.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\MadDogIV\mechdef_maddogmkiv_MDD-IV-A.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiv_MDD-IV-B.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\MadDogIV\mechdef_maddogmkiv_MDD-IV-B.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiv_MDD-IV-C.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\MadDogIV\mechdef_maddogmkiv_MDD-IV-C.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiv_MDD-IV-D.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\MadDogIV\mechdef_maddogmkiv_MDD-IV-D.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiv_MDD-IV-PRIME.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\MadDogIV\mechdef_maddogmkiv_MDD-IV-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_maddogmkiii_MDD-III-PRIME.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\MadDogIII\mechdef_maddogmkiii_MDD-III-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_owens_OW-HAK.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Hackman\mechdef_owens_OW-HAK.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_grand_summoner_SMN-II-PRIME.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\GrandSummoner\mechdef_grand_summoner_SMN-II-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatiii_SHC-III-A.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatIII\mechdef_shadowcatiii_SHC-III-A.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatiii_SHC-III-B.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatIII\mechdef_shadowcatiii_SHC-III-B.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatiii_SHC-III-C.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatIII\mechdef_shadowcatiii_SHC-III-C.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatiii_SHC-III-PRIME.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatIII\mechdef_shadowcatiii_SHC-III-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatii_SHC-II-2.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatII\mechdef_shadowcatii_SHC-II-2.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatii_SHC-II-4.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatII\mechdef_shadowcatii_SHC-II-4.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatii_SHC-II-3.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatII\mechdef_shadowcatii_SHC-II-3.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_shadowcatii_SHC-II-PRIME.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatII\mechdef_shadowcatii_SHC-II-PRIME.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_summoner_SMN-WH.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Summoner\mechdef_summoner_SMN-WH.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\mechdef_uziel_UZL-BEL.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\Uziel\mechdef_uziel_UZL-BEL.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Gear\Internals\Gear_Cockpit_Generic_Compact.json">
