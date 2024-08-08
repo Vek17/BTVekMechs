@@ -281,7 +281,7 @@
 	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatII\chassisdef_shadowcatii_SHC-II-3.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatII\chassisdef_shadowcatii_SHC-II-PRIME.json">
+	  <None Update="JSON_Data\Mechs\ChassisDefs\ShadowCatII\chassisdef_shadowcatii_SHC-II.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\ChassisDefs\Summoner\chassisdef_summoner_SMN-WH.json">
@@ -413,7 +413,7 @@
 	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatII\mechdef_shadowcatii_SHC-II-3.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatII\mechdef_shadowcatii_SHC-II-PRIME.json">
+	  <None Update="JSON_Data\Mechs\MechDefs\ShadowCatII\mechdef_shadowcatii_SHC-II.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="JSON_Data\Mechs\MechDefs\Summoner\mechdef_summoner_SMN-WH.json">

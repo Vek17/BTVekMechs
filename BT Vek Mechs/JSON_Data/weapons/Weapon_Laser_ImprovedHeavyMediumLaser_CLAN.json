@@ -10,7 +10,7 @@
 		},
 		"BonusDescriptions": [
 			"WpnCrits: -50%",
-			"WeaponBoom: 75",
+			"WeaponBoom: 25",
 			"WeaponAttachmentCompatible: Laser Insulator",
 			"WeaponAttachmentCompatible: Laser FCS"
 		]
@@ -27,8 +27,8 @@
 	],
 	"AmmoCategory": "NotSet",
 	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 21,
-	"Damage": 50,
+	"HeatGenerated": 25,
+	"Damage": 45,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 0,
@@ -60,10 +60,10 @@
 		"Purchasable": true,
 		"Manufacturer": "CLAN",
 		"Model": "Medium Laser",
-		"UIName": "Heavy M Laser (C)",
+		"UIName": "Improved Heavy M Laser",
 		"Id": "Weapon_Laser_ImprovedHeavyMediumLaser_CLAN",
-		"Name": "Heavy M Laser (C)",
-		"Details": "Clan Star Adder developed the Heavy Lasers to deal more damage, but with an increased heat output. In addition, interference with a BattleMech's sensors means that a Heavy Medium Laser is penalized with a +3 to-hit modifier.",
+		"Name": "Improved Heavy M Laser",
+		"Details": "The Improved Heavy Laser is Clan Goliath Scorpion's Heavy Laser design. Like the version introduced by Clan Star Adder, it can inflict twice the damage of a standard Laser. Unlike the Star Adder's weapon, it doesn't interfere with targeting systems, so Scorpion Warriors have a better chance of hitting their target. The Improved Heavy Laser's only real drawback is the fragility of the capacitors it uses to store power. Much like a Gauss rifle, an Improved Heavy Laser will explode if destroyed in combat.",
 		"Icon": "uixSvgIcon_weapon_Energy"
 	},
 	"BonusValueA": "",

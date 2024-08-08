@@ -1,5 +1,5 @@
 {
-	"ChassisID": "chassisdef_shadowcatii_SHC-II-PRIME",
+	"ChassisID": "chassisdef_shadowcatii_SHC-II",
 	"HeraldryID": null,
 	"Description": {
 		"Cost": 1574602,
@@ -7,10 +7,10 @@
 		"Purchasable": true,
 		"Manufacturer": null,
 		"Model": null,
-		"UIName": "Shadow Cat II SHC-II-PRIME",
-		"Id": "mechdef_shadowcatii_SHC-II-PRIME",
+		"UIName": "Shadow Cat II SHC-II",
+		"Id": "mechdef_shadowcatii_SHC-II",
 		"Name": "Shadow Cat II",
-		"Details": "Based on the lighter Shadow Cat OmniMech, the Shadow Cat II is a heavy Clan Jade Falcon fire-support BattleMech. Built using the same expensive weight saving technology as its lighter parent, the Shadow Cat II is able to match the performance of the Shadow Cat without any significant loss of firepower, but only a half-ton increase of armor over the 45 ton design.\nA right-arm mounted HAG-20, supported by an LRM-10 in each torso allowes the Shadow Cat II Prime to unleash a hail of fire capable of stripping off two full tons of armor. While most fire-support designs focus on punching through armor, the Prime's shotgun-like payload made it more effective in tearing apart already damaged enemies. An ER medium laser was mounted almost as an afterthought in the Mech's right torso.",
+		"Details": "Based on the lighter Shadow Cat OmniMech, the Shadow Cat II is a heavy Clan Jade Falcon fire-support BattleMech. Built using the same expensive weight saving technology as its lighter parent, the Shadow Cat II is able to match the performance of the Shadow Cat without any significant loss of firepower, but only a half-ton increase of armor over the 45 ton design.\nA right-arm mounted HAG-20, supported by an LRM-10 in each torso allowes the Shadow Cat II to unleash a hail of fire capable of stripping off two full tons of armor. While most fire-support designs focus on punching through armor, the shotgun-like payload made it more effective in tearing apart already damaged enemies. An ER medium laser was mounted almost as an afterthought in the Mech's right torso.",
 		"Icon": "uixTxrIcon_shadowcatii"
 	},
 	"simGameMechPartCost": 5210000,
