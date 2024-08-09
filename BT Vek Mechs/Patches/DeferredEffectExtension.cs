@@ -43,7 +43,7 @@ static class DeferredEffectExtension {
                 __instance.offset = __instance.ancor.position;
                 __instance.ancor = null;
             }
-            if (ancor == null || !TriggerAfterActivation.IsMatch(__instance.definition.id)) {
+            if (__instance.ancor == null || !TriggerAfterActivation.IsMatch(__instance.definition.id)) {
                 return;
             }
 
