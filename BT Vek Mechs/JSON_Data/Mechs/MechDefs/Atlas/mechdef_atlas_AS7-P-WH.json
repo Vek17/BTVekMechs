@@ -7,10 +7,10 @@
 		"Purchasable": true,
 		"Manufacturer": null,
 		"Model": null,
-		"UIName": "Promethous AS7-P-WH",
+		"UIName": "Prometheus AS7-P-WH",
 		"Id": "mechdef_atlas_AS7-P-WH",
-		"Name": "Promethous",
-		"Details": "The Promethous is an experemental platform built around newly developed Warhammer Missiles. Featuring two Warhammer Missile Launchers and a pair of Light Gauss Rifles the Promethous has proven to be a very dangerous direct fire support platform. With an additional four medium lasers for cloer range targets the Prometheous has proven moderatly succsessful, though the XL Engine and large Warhammer ammo supply has made it a fair bit less durable than the original Atlas design.",
+		"Name": "Prometheus",
+		"Details": "The Prometheus is a test platform for the newly developed Warhammer Missiles. Featuring two Warhammer Missile Launchers and a pair of Light Gauss Rifles, the Prometheus has proven to be a very dangerous direct fire support platform. With four additional medium lasers for close range targets, the Prometheus has proven moderately successful, though the XL Engine and large Warhammer ammo supply has made it a fair bit less durable than a typical Atlas.",
 		"Icon": "uixTxrIcon_atlas"
 	},
 	"simGameMechPartCost": 1300000,
